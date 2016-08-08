@@ -1,0 +1,76 @@
+Title:
+    Stata2Mplus conversion for healthbehaviours.dta
+    List of variables converted shown below
+
+    Country : Country
+      1: Ghana
+      2: Kenya
+      3: Namibia
+      4: Rwanda
+      5: Senegal
+    Cluster : Cluster
+    Hsehold : Hsehold
+    Weight : Weight
+    M_Age : M_Age
+    C_Age : C_Age
+    C_Sex : C_Sex
+      1: Male
+      2: Female
+    Edu_Att : Edu_Att
+      1: No education
+      2: Primary
+      3: Secondary
+      4: Higher
+    Med_Expo : Med_Expo
+      1: No Exposure to TV/Radio
+      2: Exposure to either TV/Radio
+      3: Exposure to both TV and Radio
+    Dailies : Dailies
+    Radio : Radio
+    TV : TV
+    Brstfed : Brstfed
+    Eat_Freq : Eat_Freq
+    Diet_Div : Diet_Div
+    Urban : Urban
+    Employed : Employed
+    SoClass : SoClass
+      1: Professional Skilled
+      2: Administrative & Sales
+      3: Services
+      4: Agricultural
+      5: Manual
+      6: Unemployed
+    Maln : Maln
+    Wealth : Wealth
+    NeighPov : NeighPov
+    Comm_Hse : Comm_Hse
+   Data:
+    File is healthbehaviours.dat;
+   Variable:
+    Names are
+       Country Cluster Hsehold Resp wt M_Age C_Age C_Sex B_Order Edu_Att
+     Med_Expo Dailies Radio TV Brstfed Eat_Freq Diet_Div Urban Employed
+     Work_Cls Maln Wealth NeighPov Commty Comm_Hse Child_id;
+    Missing are all (-9999) ;
+    UseVariables are
+          Dailies Radio TV;
+     WEIGHT = wt;
+     CLUSTER = Comm_Hse;
+    
+    Analysis:
+      Type=TWOLEVEL;
+    Model:
+
+         %WITHIN%
+
+         %BETWEEN%
+            MED_USE BY Dailies Radio TV;
+
+   Output:
+      Standardized(stdyx) sampstat residual;
+   Plot:
+      type=plot3;
+
+   savedata:
+      File=mlwin_fscore.txt;
+      save=fscores;
