@@ -1,0 +1,17 @@
+{
+    "contents" : "\nrm(list=ls(all=T))\ncat('________________________________________________________________________________________________________________________\\n\\n')\ncat('Welcome ', Sys.getenv('USERNAME'), '!\\n\\n', sep = '')\ncat('The date today is', format(Sys.Date(), '%d %B %Y.'), '\\n')\ncat('Reporting session started at ', format(Sys.time(), '%I:%M %p'), '\\n\\n', sep = '')\n\n# Set project path\nsetwd(\"F:/SCHOOL/Dissertation/DHS Dataset/R_Codes\")\nhome.dir <- \"F:/SCHOOL/Dissertation/DHS Dataset\"\nmain.folder<-file.path(home.dir, \"R_Codes\")\nm.project.path <- path.expand(file.path(home.dir,\"R_Codes\"))\n\nm.project.path <- gsub(\"\\\\\\\\\",\"/\",m.project.path)\nif(!file.exists(m.project.path)) {\n  if(dir.create(m.project.path, recursive = TRUE))\n    stop(\"The project directory \\\"\"\n         ,m.project.path\n         ,\"\\\"  has been created!\\nPlease fill it with the relevant files and folders!\")\n  else\n    stop(\"The project directory \\\"\"\n         ,m.project.path\n         ,\"\\\"  could not be created!\")\n}\n\n\n# Run scripts\n\nrun.app <- function(files) {\n  run.app.internal <- function(file) {\n    if(!file.exists(file)) {\n      stop(\"The file \\\"\", file, \"\\\" does not exist!\\n\")\n    }\n    source(file, max.deparse.length =Inf, echo=FALSE)\n  }\n  invisible(sapply(files, run.app.internal))\n}\nfiles <- sort(list.files(file.path(m.project.path, \"src\", \"r\")))\nfiles <- files[-which(files %in% c(\"00_boot.R\",\"recode\"))]\nfiles <- files[order(files)]\nfiles <- files[grepl(\"[[:digit:]{2}]\", files)]\nfiles <- file.path(m.project.path, \"src\", \"r\", files)\ninvisible(run.app(files))\n\n#Clean up\n\nrm(files)\nrm(run.app)\n\n\n# Display message\n\ncat(\"\\n\\n\", \"Report generation ended at \", format(Sys.time(), \"%I:%M %p\"), sep = \"\")\ncat(\"\\n\\nGoodbye \", Sys.getenv(\"USER\"), \"!\\n\\n\", sep = \"\")\ncat(\"----------------------------------------\\n\\n\")\nSys.sleep(5)\n",
+    "created" : 1450898173673.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "561450520",
+    "id" : "B755CA73",
+    "lastKnownWriteTime" : 1450911542,
+    "path" : "F:/SCHOOL/Dissertation/DHS Dataset/R_Codes/src/r/00_boot.R",
+    "project_path" : "src/r/00_boot.R",
+    "properties" : {
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "type" : "r_source"
+}
