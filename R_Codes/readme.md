@@ -1,10 +1,8 @@
-![kemri logo](/sys/asset/img/kwtrp_logo.png?raw=true)
-
 ***
 
 ## Social inequalities in health research - Combined DHS datasets
 
-![neonatal logo](/sys/asset/img/neonatal_logo.png?raw=true)
+![neonatal logo](https://github.com/ttuti/MSc.Dissertation/tree/msc.dissertation/R_Codes/sys/asset/img/neonatal_logo.png?raw=true)
 
 ***
 

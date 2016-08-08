@@ -85,12 +85,5 @@ dhs.analysis.cols <- c("V000","V001","V002","V003","V005","V012","V013","V024","
                        "V159","V190","V218","V201","V212","BORD","B0","B4","B5","HW1","HW8",
                        "HW13","HW71","M4","M34","M39","M39A","V414E","V414F","V414O","V411",
                        "V411A","V412","V414P","V414H","V414M","V414N","V414G","V414J","V414K","V414L","V414W")
-# m.report.template.location <-file.path(m.sys.template, "Hospital_report_tmpl.docx")
-# m.report.aop.location <- file.path(m.sys.asset.doc, "Hospital_Report_aop.csv")
-# m.report.aop.script.location <- file.path(m.cache.src, "Report AOP Plugins.R")
-# hash.freetext <- create.dir.if.missing(file.path(m.project.path, "data", "HashTable_V.csv"))
-# hash.dropdown <- create.dir.if.missing(file.path(m.project.path, "data", "HashTable_Dropdown.csv"))
-# venn.lbls <- create.dir.if.missing(file.path(m.project.path, "data", "venn.labels.csv"))
 
-#seeting essentials for getting data from redcap
 
