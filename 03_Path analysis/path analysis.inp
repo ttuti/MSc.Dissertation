@@ -1,0 +1,172 @@
+Title:
+        Stata2Mplus conversion for healthbehaviours.dta
+        List of variables converted shown below
+
+        Country : Country
+          1: Ghana
+          2: Kenya
+          3: Namibia
+          4: Rwanda
+          5: Senegal
+        Cluster : Cluster
+        Hsehold : Hsehold
+        Resp : Resp
+        Weight : Weight
+        M_Age : M_Age
+        C_Age : C_Age
+        C_Sex : C_Sex
+          1: Male
+          2: Female
+        B_Order : B_Order
+        Edu_Att : Edu_Att
+          1: No education
+          2: Primary
+          3: Secondary
+          4: Higher
+        Med_Expo : Med_Expo
+          1: No Exposure to TV/Radio
+          2: Exposure to either TV/Radio
+          3: Exposure to both TV and Radio
+        Dailies : Dailies
+        Radio : Radio
+        TV : TV
+        Brstfed : Brstfed
+        Eat_Freq : Eat_Freq
+        Diet_Div : Diet_Div
+        Urban : Urban
+        Employed : Employed
+        Work_Cls : Work_Cls
+          1: Housewife
+          2: Routine & Manual
+          3: Intermediate
+          4: Professional & Managerial
+        Maln : Maln
+        Wealth : Wealth
+        NeighPov : NeighPov
+        Comm_Hse : Comm_Hse
+       Data:
+        File is healthbehaviours.dat;
+       Variable:
+        Names are
+           Country Cluster Hsehold Resp wt M_Age C_Age C_Sex B_Order Edu_Att
+           Med_Expo Dailies Radio TV Brstfed Eat_Freq Diet_Div Urban Employed
+           Work_Cls Maln Wealth NeighPov Commty Comm_Hse Child_id;
+        Missing are all (-9999) ;
+        UseVariables are
+              Brstfed Eat_Freq Diet_Div
+              Dailies Radio TV
+              C_Age Edu_Att Wealth
+              NeighPov Urban
+              Female Healthy Manual Int_Work Prof_Mgr
+              Ghana Namibia Senegal Rwanda;
+        Classes are
+            HLTH_BHV(2);
+        Categorical are
+            Brstfed Eat_Freq Diet_Div Healthy;
+        WITHIN =C_Age Female Edu_Att Wealth Manual Int_Work Prof_Mgr;        
+        BETWEEN=NeighPov Urban Ghana Namibia Senegal Rwanda;
+        WEIGHT=wt;
+        Cluster=Commty;
+
+        Define:
+
+         if(Maln EQ 0) then Healthy = 1;
+         if(Maln EQ 1) then Healthy = 0;
+
+         if (C_Sex EQ 1) then Female = 0;
+         if (C_Sex EQ 2) then Female = 1;
+
+         if (Work_Cls EQ 2) then Manual = 1;
+         if (Work_Cls NE 2) then Manual = 0;
+         if (Work_Cls EQ 3) then Int_Work = 1;
+         if (Work_Cls NE 3) then Int_Work = 0;
+         if (Work_Cls EQ 4) then Prof_Mgr = 1;
+         if (Work_Cls NE 4) then Prof_Mgr = 0;
+
+         if (Country EQ 1) then Ghana = 1;
+         if (Country NE 1) then Ghana = 0;
+         if (Country EQ 3) then Namibia = 1;
+         if (Country NE 3) then Namibia = 0;
+         if (Country EQ 4) then Rwanda = 1;
+         if (Country NE 4) then Rwanda = 0;
+         if (Country EQ 5) then Senegal = 1;
+         if (Country NE 5) then Senegal = 0;
+
+         CENTER C_Age (GRANDMEAN);
+        Analysis:
+          Type=TWOLEVEL RANDOM MIXTURE;
+          ALGORITHM=INTEGRATION;
+          Starts=1000 20;
+          Processors=4;
+
+        Model:
+             %WITHIN%
+             %OVERALL%
+             Media BY Dailies Radio TV;
+
+             Media ON 
+                Edu_Att(e1)
+                Wealth
+                Manual
+                Int_Work
+                Prof_Mgr
+                C_Age
+                Female;
+
+            HLTH_BHV#1 ON
+                  Wealth(w)
+                  Manual(c1)
+                  Int_Work(c2)
+                  Prof_Mgr(c3)
+                  Media(m1)                  
+                  C_Age
+                  Female;
+
+            s|HLTH_BHV#1 ON Edu_Att (e2);
+            
+            
+            %BETWEEN%
+            %OVERALL%
+
+            NeighPov ON 
+                Urban
+                Ghana Namibia Senegal Rwanda;
+
+            NeighPov ON s(p2);
+            
+            HLTH_BHV#1 ON 
+                  s(eR)
+                  NeighPov(p1)                 
+                  Urban
+                  Ghana Namibia Senegal Rwanda;
+
+
+
+
+       MODEL CONSTRAINT:
+           NEW (clsmed_i clsdep_i wk_cls_m wk_cls_i wk_cls_p);
+
+              clsmed_i = m1*e1;
+              clsdep_i = p1*p2;
+
+              wk_cls_m = c1*e2;
+              wk_cls_i = c2*e2;
+              wk_cls_p = c3*e2;
+
+       Model test:
+
+                0=eR - clsmed_i; !Household media use has mediation effects
+                0=eR - clsdep_i; !Local area deprivation has mediation effects 
+
+                !Mediation effects(media)= mediation effects(deprivation)
+                0=clsdep_i-clsmed_i;
+
+                !Cascading increment of effect of class*edu on health behaviours
+                0=wk_cls_i-wk_cls_m;
+                0=wk_cls_p-wk_cls_i;
+    Output:
+      Standardized(stdyx) residual SAMPSTAT TECH4 TECH11;
+
+    Plot:
+          type=plot3;
+          Series=Brstfed Eat_Freq Diet_Div Healthy(*);
