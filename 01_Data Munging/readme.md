@@ -2,7 +2,7 @@
 
 ## Social inequalities in health research - Combined DHS datasets
 
-![neonatal logo](https://github.com/ttuti/MSc.Dissertation/tree/msc.dissertation/R_Codes/sys/asset/img/neonatal_logo.png?raw=true)
+![neonatal logo](http:/sys/asset/img/neonatal_logo.png?raw=true)
 
 ***
 
