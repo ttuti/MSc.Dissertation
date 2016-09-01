@@ -1,0 +1,4061 @@
+﻿variable,value,Label
+AWFACTE,Variable Label,All woman factor - educational
+AWFACTR,Variable Label,All woman factor - regional
+AWFACTT,Variable Label,All woman factor - total
+AWFACTU,Variable Label,All woman factor - urban/rural
+AWFACTW,Variable Label,All woman factor - wealth index
+B0,Variable Label,Child is twin
+B0,0,Single birth
+B0,1,1st of multiple
+B0,2,2nd of multiple
+B0,3,3rd of multiple
+B0,4,4th of multiple
+B0,5,5th of multiple
+B1,Variable Label,Month of birth
+B10,Variable Label,Completeness of information
+B10,1,Month and year - information complete
+B10,2,Month and age - year imputed
+B10,3,Year and age - month imputed
+B10,4,Year and age - year ignored
+B10,5,Year - age/month imputed
+B10,6,Age - year/month imputed
+B10,7,Month - age/year imputed
+B10,8,None - all imputed
+B11,Variable Label,Preceding birth interval (months)
+B12,Variable Label,Succeeding birth interval (months)
+B13,Variable Label,Flag for age at death
+B13,0,No flag
+B13,1,> interview
+B13,2,< breastfeeding
+B13,3,< age supplemented
+B13,4,< first breastfed
+B13,5,< last vaccination
+B13,6,Outside range
+B13,7,"Imputed, units given"
+B13,8,"Imputed, no units"
+B15,Variable Label,Live birth between births
+B15,0,No
+B15,1,Yes
+B16,Variable Label,Child's line number in household
+B16,0,Not listed in household
+B2,Variable Label,Year of birth
+B3,Variable Label,Date of birth (CMC)
+B4,Variable Label,Sex of child
+B4,1,Male
+B4,2,Female
+B5,Variable Label,Child is alive
+B5,0,No
+B5,1,Yes
+B6,Variable Label,Age at death
+B6,100,Died on day of birth
+B6,101,Days: 1
+B6,199,Days: number missing
+B6,201,Months: 1
+B6,299,Months: number missing
+B6,301,Years: 1
+B6,399,Years: number missing
+B6,997,Inconsistent
+B6,998,Don't know
+B7,Variable Label,"Age at death (months, imputed)"
+B8,Variable Label,Current age of child
+B9,Variable Label,Child lives with whom
+B9,0,Respondent
+B9,1,Father
+B9,2,Other relative
+B9,3,Someone else
+B9,4,Lives elsewhere
+BIDX,Variable Label,Birth column number
+BORD,Variable Label,Birth order number
+CASEID,Variable Label,Case Identification
+H0,Variable Label,Received POLIO 0
+H0,0,No
+H0,1,Vaccination date on card
+H0,2,Reported by mother
+H0,3,Vaccination marked on card
+H0,8,Don't know
+H0D,Variable Label,POLIO 0 day
+H0D,97,Inconsistent
+H0D,98,Don't know
+H0M,Variable Label,POLIO 0 month
+H0M,97,Inconsistent
+H0M,98,Don't know
+H0Y,Variable Label,POLIO 0 year
+H0Y,9997,Inconsistent
+H0Y,9998,Don't know
+H1,Variable Label,Has health card
+H1,0,No card
+H1,1,"Yes, seen"
+H1,2,"Yes, not seen"
+H1,3,No longer has card
+H10,Variable Label,Ever had vaccination
+H10,0,No
+H10,1,Yes
+H10,8,Don't know
+H11,Variable Label,Had diarrhea recently
+H11,0,No
+H11,1,"Yes, last 24 hours"
+H11,2,"Yes, last two weeks"
+H11,8,Don't know
+H11B,Variable Label,Blood in the stools
+H11B,0,No
+H11B,1,Yes
+H11B,8,Don't know
+H12A,Variable Label,Diarrhea: government hospital
+H12A,0,No
+H12A,1,Yes
+H12B,Variable Label,Diarrhea: government health center
+H12B,0,No
+H12B,1,Yes
+H12C,Variable Label,Diarrhea: government health post
+H12C,0,No
+H12C,1,Yes
+H12D,Variable Label,Diarrhea: Mobile clinic
+H12D,0,No
+H12D,1,Yes
+H12E,Variable Label,Diarrhea: Community health worker
+H12E,0,No
+H12E,1,Yes
+H12F,Variable Label,Diarrhea: other public sector
+H12F,0,No
+H12F,1,Yes
+H12G,Variable Label,"Diarrhea : Community health center (""Case de santé"")"
+H12G,0,No
+H12G,1,Yes
+H12H,Variable Label,NA - Diarrhea: CS public sector
+H12H,0,No
+H12H,1,Yes
+H12I,Variable Label,NA - Diarrhea: CS public sector
+H12I,0,No
+H12I,1,Yes
+H12J,Variable Label,Diarrhea: private hospital/clinic
+H12J,0,No
+H12J,1,Yes
+H12K,Variable Label,Diarrhea: private pharmacy
+H12K,0,No
+H12K,1,Yes
+H12L,Variable Label,Diarrhea: private doctor
+H12L,0,No
+H12L,1,Yes
+H12M,Variable Label,Diarrhea: private mobile clinic
+H12M,0,No
+H12M,1,Yes
+H12N,Variable Label,Diarrhea: private comm. health worker
+H12N,0,No
+H12N,1,Yes
+H12O,Variable Label,Diarrhea: other private medical
+H12O,0,No
+H12O,1,Yes
+H12P,Variable Label,NA - Diarrhea: CS private medical
+H12P,0,No
+H12P,1,Yes
+H12Q,Variable Label,NA - Diarrhea: CS private medical
+H12Q,0,No
+H12Q,1,Yes
+H12R,Variable Label,NA - Diarrhea: CS private medical
+H12R,0,No
+H12R,1,Yes
+H12S,Variable Label,Diarrhea: shop
+H12S,0,No
+H12S,1,Yes
+H12T,Variable Label,Diarrhea: traditional practitioner
+H12T,0,No
+H12T,1,Yes
+H12U,Variable Label,Diarrhea: market
+H12U,0,No
+H12U,1,Yes
+H12V,Variable Label,Diarrhea: Other - community worker
+H12V,0,No
+H12V,1,Yes
+H12W,Variable Label,NA - Diarrhea: CS other sector
+H12W,0,No
+H12W,1,Yes
+H12X,Variable Label,Diarrhea: Other
+H12X,0,No
+H12X,1,Yes
+H12Y,Variable Label,Diarrhea: no treatment
+H12Y,0,No: received treatment
+H12Y,1,Yes: no treatment
+H12Z,Variable Label,Diarrhea: medical treatment
+H12Z,0,No
+H12Z,1,Yes
+H13,Variable Label,Given oral rehydration
+H13,0,No
+H13,1,Yes: ORS - spontaneous
+H13,2,Yes: ORS - probed
+H13,8,Don't know
+H13B,Variable Label,Given pre-packaged ORS liquid
+H13B,0,No
+H13B,1,Yes
+H13B,8,Don't know
+H14,Variable Label,Given recommended home solution
+H14,0,No
+H14,1,Yes: RHS - spontaneous
+H14,2,Yes: RHS - probed
+H14,8,Don't know
+H15,Variable Label,Given antibiotic pills or syrups
+H15,0,No
+H15,1,Yes
+H15,8,Don't know
+H15A,Variable Label,Given antimotility
+H15A,0,No
+H15A,1,Yes
+H15A,8,Don't know
+H15B,Variable Label,Given antibiotic injection
+H15B,0,No
+H15B,1,Yes
+H15B,8,Don't know
+H15C,Variable Label,Given intravenous (IV)
+H15C,0,No
+H15C,1,Yes
+H15C,8,Don't know
+H15D,Variable Label,"Given home remedy, herbal medicine"
+H15D,0,No
+H15D,1,Yes
+H15D,8,Don't know
+H15E,Variable Label,Given zinc
+H15E,0,No
+H15E,1,Yes
+H15E,8,Don't know
+H15F,Variable Label,"Given other (not antibiotic, antimotility, zinc)"
+H15F,0,No
+H15F,1,Yes
+H15F,8,Don't know
+H15G,Variable Label,Given unknown pill or syrup
+H15G,0,No
+H15G,1,Yes
+H15G,8,Don't know
+H15H,Variable Label,Given non-antibiotic injection
+H15H,0,No
+H15H,1,Yes
+H15H,8,Don't know
+H15I,Variable Label,Given unknown injection
+H15I,0,No
+H15I,1,Yes
+H15I,8,Don't know
+H15J,Variable Label,NA - Given CS
+H15J,0,No
+H15J,1,Yes
+H15J,8,Don't know
+H15K,Variable Label,NA - Given CS
+H15K,0,No
+H15K,1,Yes
+H15K,8,Don't know
+H15L,Variable Label,NA - Given CS
+H15L,0,No
+H15L,1,Yes
+H15L,8,Don't know
+H15M,Variable Label,NA - Given CS
+H15M,0,No
+H15M,1,Yes
+H15M,8,Don't know
+H2,Variable Label,Received BCG
+H2,0,No
+H2,1,Vaccination date on card
+H2,2,Reported by mother
+H2,3,Vaccination marked on card
+H2,8,Don't know
+H20,Variable Label,Given other treatment
+H20,0,No
+H20,1,Yes
+H20,8,Don't know
+H21,Variable Label,Received any treatment
+H21,0,No
+H21,1,Yes
+H21A,Variable Label,Given no treatment
+H21A,0,No: received treatment
+H21A,1,Yes: no treatment
+H21A,8,Don't know
+H22,Variable Label,Had fever in last two weeks
+H22,0,No
+H22,1,Yes
+H22,8,Don't know
+H2D,Variable Label,BCG day
+H2D,97,Inconsistent
+H2D,98,Don't know
+H2M,Variable Label,BCG month
+H2M,97,Inconsistent
+H2M,98,Don't know
+H2Y,Variable Label,BCG year
+H2Y,9997,Inconsistent
+H2Y,9998,Don't know
+H3,Variable Label,Received DPT 1
+H3,0,No
+H3,1,Vaccination date on card
+H3,2,Reported by mother
+H3,3,Vaccination marked on card
+H3,8,Don't know
+H31,Variable Label,Had cough in last two weeks
+H31,0,No
+H31,1,"Yes, last 24 hours"
+H31,2,"Yes, last two weeks"
+H31,8,Don't know
+H31B,Variable Label,"Short, rapid breaths"
+H31B,0,No
+H31B,1,Yes
+H31B,8,Don't know
+H31C,Variable Label,Problem in the chest or blocked or running nose
+H31C,1,Chest only
+H31C,2,Nose only
+H31C,3,Both
+H31C,6,Other
+H31C,8,Don't know
+H31D,Variable Label,Had fever/cough in last 2 weeks: amount offered to drink
+H31D,0,Nothing to drink
+H31D,2,Much less
+H31D,3,Somewhat less
+H31D,4,About the same
+H31D,5,More
+H31D,8,Don't know
+H31E,Variable Label,Had fever/cough in last 2 weeks: amount offered to eat
+H31E,0,Stopped food
+H31E,1,Never gave food
+H31E,2,Much less
+H31E,3,Somewhat less
+H31E,4,About the same
+H31E,5,More
+H31E,8,Don't know
+H32A,Variable Label,Fever/cough: government hospital
+H32A,0,No
+H32A,1,Yes
+H32B,Variable Label,Fever/cough: government health center
+H32B,0,No
+H32B,1,Yes
+H32C,Variable Label,Fever/cough: government health post
+H32C,0,No
+H32C,1,Yes
+H32D,Variable Label,Fever/cough: government mobile team
+H32D,0,No
+H32D,1,Yes
+H32E,Variable Label,Fever/cough: community health worker
+H32E,0,No
+H32E,1,Yes
+H32F,Variable Label,Fever/cough: other public sector
+H32F,0,No
+H32F,1,Yes
+H32G,Variable Label,Fever/cough: CS public sector
+H32G,0,No
+H32G,1,Yes
+H32H,Variable Label,NA - Fever/cough: CS public sector
+H32H,0,No
+H32H,1,Yes
+H32I,Variable Label,NA - Fever/cough: CS public sector
+H32I,0,No
+H32I,1,Yes
+H32J,Variable Label,Fever/cough: private hospital/ clinic
+H32J,0,No
+H32J,1,Yes
+H32K,Variable Label,Fever/cough: private pharmacy
+H32K,0,No
+H32K,1,Yes
+H32L,Variable Label,Fever/cough: private doctor
+H32L,0,No
+H32L,1,Yes
+H32M,Variable Label,Fever/cough: private mobile clinic
+H32M,0,No
+H32M,1,Yes
+H32N,Variable Label,Fever/cough: private comm. health worker
+H32N,0,No
+H32N,1,Yes
+H32O,Variable Label,Fever/cough: other private medical
+H32O,0,No
+H32O,1,Yes
+H32P,Variable Label,NA - Fever/cough: CS private medical
+H32P,0,No
+H32P,1,Yes
+H32Q,Variable Label,NA - Fever/cough: CS private medical
+H32Q,0,No
+H32Q,1,Yes
+H32R,Variable Label,NA - Fever/cough: CS private medical
+H32R,0,No
+H32R,1,Yes
+H32S,Variable Label,Fever/cough: shop
+H32S,0,No
+H32S,1,Yes
+H32T,Variable Label,Fever/cough: traditional practitioner
+H32T,0,No
+H32T,1,Yes
+H32U,Variable Label,Fever/cough: market
+H32U,0,No
+H32U,1,Yes
+H32V,Variable Label,Fever/cough: CS other sector
+H32V,0,No
+H32V,1,Yes
+H32W,Variable Label,NA - Fever/cough: CS other sector
+H32W,0,No
+H32W,1,Yes
+H32X,Variable Label,Fever/cough: other
+H32X,0,No
+H32X,1,Yes
+H32Y,Variable Label,Fever/cough: no treatment
+H32Y,0,No: received treatment
+H32Y,1,Yes: no treatment
+H32Z,Variable Label,Fever/cough: medical treatment
+H32Z,0,No
+H32Z,1,Yes
+H33,Variable Label,Received Vitamin A1 (most recent)
+H33,0,No
+H33,1,Vaccination date on card
+H33,2,Reported by mother
+H33,3,Vaccination marked on card
+H33,8,Don't know
+H33D,Variable Label,Vitamin A1 day
+H33D,97,Inconsistent
+H33D,98,Don't know
+H33M,Variable Label,Vitamin A1 month
+H33M,97,Inconsistent
+H33M,98,Don't know
+H33Y,Variable Label,Vitamin A1 year
+H33Y,9997,Inconsistent
+H33Y,9998,Don't know
+H34,Variable Label,Vitamin A in last 6 months
+H34,0,No
+H34,1,Yes
+H34,8,Don't know
+H35,Variable Label,NA - Any vaccinations in last 2 years part of campaign
+H35,0,No
+H35,1,Yes
+H35,2,No vaccination in last 2 years
+H35,8,Don't know
+H36A,Variable Label,NA - Vaccinated during Campaign A
+H36A,0,No
+H36A,1,Yes
+H36A,8,Don't know
+H36B,Variable Label,NA - Vaccinated during Campaign B
+H36B,0,No
+H36B,1,Yes
+H36B,8,Don't know
+H36C,Variable Label,NA - Vaccinated during Campaign C
+H36C,0,No
+H36C,1,Yes
+H36C,8,Don't know
+H36D,Variable Label,NA - Vaccinated during Campaign D
+H36D,0,No
+H36D,1,Yes
+H36D,8,Don't know
+H36E,Variable Label,NA - Vaccinated during Campaign E
+H36E,0,No
+H36E,1,Yes
+H36E,8,Don't know
+H36F,Variable Label,NA - Vaccinated during Campaign F
+H36F,0,No
+H36F,1,Yes
+H36F,8,Don't know
+H37A,Variable Label,NA - Fansidar taken for fever/cough
+H37A,0,No
+H37A,1,Yes
+H37B,Variable Label,NA - Chloroquine taken for fever/cough
+H37B,0,No
+H37B,1,Yes
+H37C,Variable Label,NA - Amodiaquine taken for fever/cough
+H37C,0,No
+H37C,1,Yes
+H37D,Variable Label,NA - Quinine taken for fever/cough
+H37D,0,No
+H37D,1,Yes
+H37E,Variable Label,NA - Combination with artemisinin taken for fever/cough
+H37E,0,No
+H37E,1,Yes
+H37F,Variable Label,NA - ACT taken for fever/cough
+H37F,0,No
+H37F,1,Yes
+H37G,Variable Label,NA - CS antimalarial taken for fever/cough
+H37G,0,No
+H37G,1,Yes
+H37H,Variable Label,NA - Other antimalarial taken for fever/cough
+H37H,0,No
+H37H,1,Yes
+H37I,Variable Label,NA - Antibiotic pill/syrup taken for fever/cough
+H37I,0,No
+H37I,1,Yes
+H37J,Variable Label,NA - Antibiotic injection taken for fever/cough
+H37J,0,No
+H37J,1,Yes
+H37K,Variable Label,NA - Aspirin taken for fever/cough
+H37K,0,No
+H37K,1,Yes
+H37L,Variable Label,NA - Acetaminophen/paracetamol/panadol taken for fever/cough
+H37L,0,No
+H37L,1,Yes
+H37M,Variable Label,NA - Ibuprofen taken for fever/cough
+H37M,0,No
+H37M,1,Yes
+H37N,Variable Label,NA - CS other taken for fever/cough
+H37N,0,No
+H37N,1,Yes
+H37O,Variable Label,NA - CS other for fever/cough
+H37O,0,No
+H37O,1,Yes
+H37P,Variable Label,NA - CS other for fever/cough
+H37P,0,No
+H37P,1,Yes
+H37X,Variable Label,NA - Other taken for fever/cough
+H37X,0,No
+H37X,1,Yes
+H37Y,Variable Label,NA - Nothing taken for fever/cough
+H37Y,0,No
+H37Y,1,"Yes, nothing taken"
+H37Z,Variable Label,NA - Don't know if or what was taken for fever/cough
+H37Z,0,No
+H37Z,1,"Yes, don't know"
+H38,Variable Label,Diarrhea in last 2 weeks: amount offered to drink
+H38,0,Nothing to drink
+H38,2,Much less
+H38,3,Somewhat less
+H38,4,About the same
+H38,5,More
+H38,8,Don't know
+H39,Variable Label,Diarrhea in last 2 weeks: amount offered to eat
+H39,0,Stopped food
+H39,1,Never gave food
+H39,2,Much less
+H39,3,Somewhat less
+H39,4,About the same
+H39,5,More
+H39,8,Don't know
+H3D,Variable Label,DPT 1 day
+H3D,97,Inconsistent
+H3D,98,Don't know
+H3M,Variable Label,DPT 1 month
+H3M,97,Inconsistent
+H3M,98,Don't know
+H3Y,Variable Label,DPT 1 year
+H3Y,9997,Inconsistent
+H3Y,9998,Don't know
+H4,Variable Label,Received POLIO 1
+H4,0,No
+H4,1,Vaccination date on card
+H4,2,Reported by mother
+H4,3,Vaccination marked on card
+H4,8,Don't know
+H40,Variable Label,NA - Received Vitamin A2 (2nd most recent)
+H40,0,No
+H40,1,Vaccination date on card
+H40,2,Reported by mother
+H40,3,Vaccination marked on card
+H40,8,Don't know
+H40D,Variable Label,NA - Vitamin A2 day
+H40D,97,Inconsistent
+H40D,98,Don't know
+H40M,Variable Label,NA - Vitamin A2 month
+H40M,97,Inconsistent
+H40M,98,Don't know
+H40Y,Variable Label,NA - Vitamin A2 year
+H40Y,9997,Inconsistent
+H40Y,9998,Don't know
+H41A,Variable Label,NA - Received vitamin A after most recent in card
+H41A,0,No
+H41A,1,Yes
+H41A,8,Don't know
+H41B,Variable Label,NA - Ever received Vitamin A dose
+H41B,0,No
+H41B,1,Yes
+H41B,8,Don't know
+H42,Variable Label,"Taking iron pills, sprinkles or syrup"
+H42,0,No
+H42,1,Yes
+H42,8,Don't know
+H43,Variable Label,Drugs for intestinal parasites in last 6 months
+H43,0,No
+H43,1,Yes
+H43,8,Don't know
+H44A,Variable Label,Place first sought treatment for diarrhea
+H44A,10,PUBLIC SECTOR
+H44A,11,Government hospital
+H44A,12,Government health center
+H44A,13,Government health post
+H44A,14,Government mobile clinic
+H44A,15,Health worker
+H44A,16,Other public
+H44A,20,PRIVATE SECTOR
+H44A,21,"Private hospital, clinic"
+H44A,22,Pharmacy
+H44A,23,Private doctor
+H44A,24,Private mobile clinic
+H44A,25,Private health worker
+H44A,26,Other
+H44A,30,OTHER
+H44A,31,Shop
+H44A,32,Traditional practionner
+H44A,33,Market
+H44A,96,Other
+H44B,Variable Label,NA - Days after diarrhea sought advice or treatment
+H44B,0,Same day
+H44B,98,Don't know
+H44C,Variable Label,NA - Still has diarrhea
+H44C,0,No
+H44C,1,Yes
+H44C,8,Don't know
+H45,Variable Label,NA - Times zinc was given
+H45,98,Don't know
+H46A,Variable Label,Place first sought treatment for fever
+H46A,10,PUBLIC SECTOR
+H46A,11,Government hospital
+H46A,12,Government health center
+H46A,13,Government health post
+H46A,14,Government mobile clinic
+H46A,15,Health worker
+H46A,16,Government health home (Case de santé)
+H46A,17,Other public
+H46A,18,Respondent's home
+H46A,20,PRIVATE SECTOR
+H46A,21,"Private hospital, clinic"
+H46A,22,Pharmacy
+H46A,23,Private doctor
+H46A,24,Private mobile clinic
+H46A,25,Private health worker
+H46A,26,Other
+H46A,30,OTHER
+H46A,31,Shop
+H46A,32,Traditional practionner
+H46A,33,Market
+H46A,96,Other
+H46B,Variable Label,NA - Days after fever sought advice or treatment
+H46B,0,Same day
+H46B,98,Don't know
+H47,Variable Label,Blood taken from child's finger/heel for testing
+H47,0,No
+H47,1,Yes
+H47,8,Don't know
+H4D,Variable Label,POLIO 1 day
+H4D,97,Inconsistent
+H4D,98,Don't know
+H4M,Variable Label,POLIO 1 month
+H4M,97,Inconsistent
+H4M,98,Don't know
+H4Y,Variable Label,POLIO 1 year
+H4Y,9997,Inconsistent
+H4Y,9998,Don't know
+H5,Variable Label,Received DPT 2
+H5,0,No
+H5,1,Vaccination date on card
+H5,2,Reported by mother
+H5,3,Vaccination marked on card
+H5,8,Don't know
+H5D,Variable Label,DPT 2 day
+H5D,97,Inconsistent
+H5D,98,Don't know
+H5M,Variable Label,DPT 2 month
+H5M,97,Inconsistent
+H5M,98,Don't know
+H5Y,Variable Label,DPT 2 year
+H5Y,9997,Inconsistent
+H5Y,9998,Don't know
+H6,Variable Label,Received POLIO 2
+H6,0,No
+H6,1,Vaccination date on card
+H6,2,Reported by mother
+H6,3,Vaccination marked on card
+H6,8,Don't know
+H6D,Variable Label,POLIO 2 day
+H6D,97,Inconsistent
+H6D,98,Don't know
+H6M,Variable Label,POLIO 2 month
+H6M,97,Inconsistent
+H6M,98,Don't know
+H6Y,Variable Label,POLIO 2 year
+H6Y,9997,Inconsistent
+H6Y,9998,Don't know
+H7,Variable Label,Received DPT 3
+H7,0,No
+H7,1,Vaccination date on card
+H7,2,Reported by mother
+H7,3,Vaccination marked on card
+H7,8,Don't know
+H7D,Variable Label,DPT 3 day
+H7D,97,Inconsistent
+H7D,98,Don't know
+H7M,Variable Label,DPT 3 month
+H7M,97,Inconsistent
+H7M,98,Don't know
+H7Y,Variable Label,DPT 3 year
+H7Y,9997,Inconsistent
+H7Y,9998,Don't know
+H8,Variable Label,Received POLIO 3
+H8,0,No
+H8,1,Vaccination date on card
+H8,2,Reported by mother
+H8,3,Vaccination marked on card
+H8,8,Don't know
+H8D,Variable Label,POLIO 3 day
+H8D,97,Inconsistent
+H8D,98,Don't know
+H8M,Variable Label,POLIO 3 month
+H8M,97,Inconsistent
+H8M,98,Don't know
+H8Y,Variable Label,POLIO 3 year
+H8Y,9997,Inconsistent
+H8Y,9998,Don't know
+H9,Variable Label,Received MEASLES
+H9,0,No
+H9,1,Vaccination date on card
+H9,2,Reported by mother
+H9,3,Vaccination marked on card
+H9,8,Don't know
+H9D,Variable Label,MEASLES day
+H9D,97,Inconsistent
+H9D,98,Don't know
+H9M,Variable Label,MEASLES month
+H9M,97,Inconsistent
+H9M,98,Don't know
+H9Y,Variable Label,MEASLES year
+H9Y,9997,Inconsistent
+H9Y,9998,Don't know
+HIDX,Variable Label,Index to birth history
+HW1,Variable Label,Child's age in months
+HW10,Variable Label,Weight/Height percentile
+HW10,9998,Flagged cases
+HW11,Variable Label,Weight/Height standard deviation
+HW11,9998,Flagged cases
+HW12,Variable Label,Weight/Height percent of ref. median
+HW12,99998,Flagged cases
+HW13,Variable Label,Result of measurement - height/weight
+HW13,0,Measured
+HW13,1,Dead
+HW13,2,Sick
+HW13,3,Not present
+HW13,4,Refused
+HW13,5,Mother refused
+HW13,6,Other
+HW13,7,No measurement found in household
+HW15,Variable Label,Height: lying or standing
+HW15,0,Not measured
+HW15,1,Lying
+HW15,2,Standing
+HW15,3,Not measured
+HW16,Variable Label,Day of birth of child
+HW16,97,Inconsistent
+HW16,98,Don't know
+HW17,Variable Label,Date measured (day)
+HW18,Variable Label,Date measured (month)
+HW19,Variable Label,Date measured (year)
+HW2,Variable Label,Child's weight in kilograms (1 decimal)
+HW2,9994,Not present
+HW2,9995,Refused
+HW2,9996,Other
+HW3,Variable Label,Child's height in centimeters (1 decimal)
+HW3,9994,Not present
+HW3,9995,Refused
+HW3,9996,Other
+HW4,Variable Label,Height/Age percentile
+HW4,9998,Flagged cases
+HW5,Variable Label,Height/Age standard deviation
+HW5,9998,Flagged cases
+HW51,Variable Label,Line number of parent/caretaker
+HW51,0,Not in household
+HW52,Variable Label,Read consent statement - hemoglobin
+HW52,1,Granted
+HW52,2,Refused
+HW52,5,Absent*
+HW52,6,Other*
+HW53,Variable Label,Hemoglobin level (g/dl - 1 decimal)
+HW53,994,Not present
+HW53,995,Refused
+HW53,996,Other
+HW55,Variable Label,Result of measurement - hemoglobin
+HW55,0,Measured
+HW55,1,Dead
+HW55,3,Not present
+HW55,4,Refused
+HW55,6,Other
+HW55,7,No measurement found in household
+HW56,Variable Label,Hemoglobin level adjusted for altitude (g/dl - 1 decimal)
+HW57,Variable Label,Anemia level
+HW57,1,Severe
+HW57,2,Moderate
+HW57,3,Mild
+HW57,4,Not anemic
+HW58,Variable Label,NA - Agrees to referral - anemia
+HW58,0,No
+HW58,1,Yes
+HW6,Variable Label,Height/Age percent of ref. median
+HW6,99998,Flagged cases
+HW7,Variable Label,Weight/Age percentile
+HW7,9998,Flagged cases
+HW70,Variable Label,Height/Age standard deviation (new WHO)
+HW70,9996,Height out of plausible limits
+HW70,9997,Age in days out of plausible limits
+HW70,9998,Flagged cases
+HW71,Variable Label,Weight/Age standard deviation (new WHO)
+HW71,9996,Height out of plausible limits
+HW71,9997,Age in days out of plausible limits
+HW71,9998,Flagged cases
+HW72,Variable Label,Weight/Height standard deviation (new WHO)
+HW72,9996,Height out of plausible limits
+HW72,9997,Age in days out of plausible limits
+HW72,9998,Flagged cases
+HW73,Variable Label,BMI standard deviation (new WHO)
+HW73,9996,Height out of plausible limits
+HW73,9997,Age in days out of plausible limits
+HW73,9998,Flagged cases
+HW8,Variable Label,Weight/Age standard deviation
+HW8,9998,Flagged cases
+HW9,Variable Label,Weight/Age percent of ref. median
+HW9,99998,Flagged cases
+HWIDX,Variable Label,Index to Birth History
+IDX94,Variable Label,Index to Birth History
+IDX95,Variable Label,Index to Birth History
+IDXML,Variable Label,Index to Birth History
+M1,Variable Label,Number of tetanus injections before birth
+M1,0,Received no injection
+M1,7,7+
+M1,8,Don't know
+M10,Variable Label,Wanted pregnancy when became pregnant
+M10,1,Then
+M10,2,Later
+M10,3,No more
+M11,Variable Label,Desired time would have waited
+M11,101,Months: 1
+M11,199,Months: number missing
+M11,201,Years: 1
+M11,299,Years: number missing
+M11,998,Don't know
+M13,Variable Label,Timing of 1st antenatal check (months)
+M13,98,Don't know
+M14,Variable Label,Number of antenatal visits during pregnancy
+M14,0,No antenatal visits
+M14,98,Don't know
+M15,Variable Label,Place of delivery
+M15,10,HOME
+M15,11,Respondent's home
+M15,12,Other home
+M15,20,PUBLIC SECTOR
+M15,21,Government hospital
+M15,22,Government health center/maternity
+M15,23,Government health post
+M15,26,Other public sector
+M15,30,PRIVATE SECTOR
+M15,31,Private hospital/clinic
+M15,36,Other private sector
+M15,96,Other
+M17,Variable Label,Delivery by caesarean section
+M17,0,No
+M17,1,Yes
+M18,Variable Label,Size of child at birth
+M18,1,Very large
+M18,2,Larger than average
+M18,3,Average
+M18,4,Smaller than average
+M18,5,Very small
+M18,8,Don't know
+M19,Variable Label,Birth weight in kilograms (3 decimals)
+M19,9996,Not weighed at birth
+M19,9998,Don't know
+M19A,Variable Label,Weight at birth/recall
+M19A,0,Not weighed
+M19A,1,From written card
+M19A,2,From mother's recall
+M19A,8,Don't know
+M19A,9,Special answers
+M1A,Variable Label,Number of tetanus injections before pregnancy
+M1A,0,Received no injection
+M1A,7,7+
+M1A,8,Don't know
+M1B,Variable Label,NA - Month of last tetanus injection before pregnancy
+M1B,97,Inconsistent
+M1B,98,Don't know month
+M1C,Variable Label,NA - Year of last tetanus injection before pregnancy
+M1C,9997,Inconsistent
+M1C,9998,Don't know year
+M1D,Variable Label,Years ago received last tetanus injection before pregnancy
+M1E,Variable Label,Last tetanus injection before pregnancy (CMC)
+M1E,9996,Can't be determined
+M27,Variable Label,NA - Flag for breastfeeding
+M27,0,No flag
+M27,1,> interval
+M27,2,> interval by 1 month
+M27,3,> age at death
+M27,4,During pregnancy in calendar
+M28,Variable Label,Flag for amenorrhea
+M28,0,No flag
+M28,1,> interval
+M28,2,> interval by 1 month
+M28,4,During pregnancy in calendar
+M29,Variable Label,Flag for abstinence
+M29,0,No flag
+M29,1,> interval
+M29,2,> interval by 1 month
+M29,4,During pregnancy in calendar
+M2A,Variable Label,Prenatal: doctor
+M2A,0,No
+M2A,1,Yes
+M2B,Variable Label,Prenatal: midwife
+M2B,0,No
+M2B,1,Yes
+M2C,Variable Label,Prenatal: nurse
+M2C,0,No
+M2C,1,Yes
+M2D,Variable Label,NA - Prenatal: CS health professional
+M2D,0,No
+M2D,1,Yes
+M2E,Variable Label,NA - Prenatal: CS health professional
+M2E,0,No
+M2E,1,Yes
+M2F,Variable Label,NA - Prenatal: CS health professional
+M2F,0,No
+M2F,1,Yes
+M2G,Variable Label,Prenatal: traditional birth attendant
+M2G,0,No
+M2G,1,Yes
+M2H,Variable Label,Prenatal: trained birth attendant
+M2H,0,No
+M2H,1,Yes
+M2I,Variable Label,NA - Prenatal: CS other person
+M2I,0,No
+M2I,1,Yes
+M2J,Variable Label,NA - Prenatal: CS other person
+M2J,0,No
+M2J,1,Yes
+M2K,Variable Label,Prenatal: other
+M2K,0,No
+M2K,1,Yes
+M2L,Variable Label,NA - Prenatal: CS other
+M2L,0,No
+M2L,1,Yes
+M2M,Variable Label,NA - Prenatal: CS other
+M2M,0,No
+M2M,1,Yes
+M2N,Variable Label,Prenatal: no one
+M2N,0,No: some care
+M2N,1,Yes: no care
+M34,Variable Label,When child put to breast
+M34,0,Immediately
+M34,100,Within first hour
+M34,101,Hours: 1
+M34,199,Hours: number missing
+M34,201,Days: 1
+M34,299,Days: number missing
+M35,Variable Label,NA - Number of times breastfed during previous night
+M35,96,On demand
+M36,Variable Label,NA - Number of times breastfed during previous day
+M36,96,On demand
+M38,Variable Label,Drank from bottle with nipple yesterday/last night
+M38,0,No
+M38,1,Yes
+M38,8,Don't know
+M39,Variable Label,"Number of times ate solid, semi-solid or soft food yesterday"
+M39,0,None
+M39,7,7+
+M39,8,Don't know
+M39A,Variable Label,"Did eat any solid, semi-solid or soft foods yesterday"
+M39A,0,No
+M39A,1,Yes
+M39A,8,Don't know
+M3A,Variable Label,Assistance: doctor
+M3A,0,No
+M3A,1,Yes
+M3B,Variable Label,Assistance: midwife
+M3B,0,No
+M3B,1,Yes
+M3C,Variable Label,Assistance: nurse
+M3C,0,No
+M3C,1,Yes
+M3D,Variable Label,NA - Assistance: CS health professional
+M3D,0,No
+M3D,1,Yes
+M3E,Variable Label,NA - Assistance: CS health professional
+M3E,0,No
+M3E,1,Yes
+M3F,Variable Label,NA - Assistance: CS health professional
+M3F,0,No
+M3F,1,Yes
+M3G,Variable Label,Assistance: traditional birth attendant
+M3G,0,No
+M3G,1,Yes
+M3H,Variable Label,Assistance: trained birth attendant
+M3H,0,No
+M3H,1,Yes
+M3I,Variable Label,NA - Assistance: CS other person
+M3I,0,No
+M3I,1,Yes
+M3J,Variable Label,NA - Assistance: CS other person
+M3J,0,No
+M3J,1,Yes
+M3K,Variable Label,Assistance: other
+M3K,0,No
+M3K,1,Yes
+M3L,Variable Label,NA - Assistance: CS other
+M3L,0,No
+M3L,1,Yes
+M3M,Variable Label,NA - Assistance: CS other
+M3M,0,No
+M3M,1,Yes
+M3N,Variable Label,Assistance: no one
+M3N,0,No: some assistance
+M3N,1,Yes: no assistance
+M4,Variable Label,Duration of breastfeeding
+M4,93,"Ever breastfed, not currently breastfeeding"
+M4,94,Never breastfed
+M4,95,Still breastfeeding
+M4,96,Breastfed until died
+M4,97,Inconsistent
+M4,98,Don't know
+M42A,Variable Label,NA - During pregnancy: weighed
+M42A,0,No
+M42A,1,Yes
+M42B,Variable Label,NA - During pregnancy: height measured
+M42B,0,No
+M42B,1,Yes
+M42C,Variable Label,During pregnancy: blood pressure taken
+M42C,0,No
+M42C,1,Yes
+M42D,Variable Label,During pregnancy: urine sample taken
+M42D,0,No
+M42D,1,Yes
+M42E,Variable Label,During pregnancy: blood sample taken
+M42E,0,No
+M42E,1,Yes
+M43,Variable Label,Told about pregnancy complications
+M43,0,No
+M43,1,Yes
+M43,8,Don't know
+M44,Variable Label,NA - Told where to go for pregnancy complications
+M44,0,No
+M44,1,Yes
+M44,8,Don't know
+M45,Variable Label,"During pregnancy, given or bought iron tablets/syrup"
+M45,0,No
+M45,1,Yes
+M45,8,Don't know
+M46,Variable Label,Days tablets or syrup taken
+M46,0,Were not taken
+M46,998,Don't know
+M47,Variable Label,"NA - During pregnancy, had difficulty with daylight vision"
+M47,0,No
+M47,1,Yes
+M47,8,Don't know
+M48,Variable Label,"NA - During pregnancy, had difficulty with night blindness"
+M48,0,No
+M48,1,Yes
+M48,8,Don't know
+M49A,Variable Label,During pregnancy took: SP/fansidar for malaria
+M49A,0,No
+M49A,1,Yes
+M49A,8,Don't know
+M49B,Variable Label,NA - During pregnancy took: chloroquine for malaria
+M49B,0,No
+M49B,1,Yes
+M49B,8,Don't know
+M49C,Variable Label,During pregnancy took: ACT
+M49C,0,No
+M49C,1,Yes
+M49C,8,Don't know
+M49D,Variable Label,NA - During pregnancy took: CS drug for malaria
+M49D,0,No
+M49D,1,Yes
+M49D,8,Don't know
+M49E,Variable Label,NA - During pregnancy took: CS drug for malaria
+M49E,0,No
+M49E,1,Yes
+M49E,8,Don't know
+M49F,Variable Label,NA - During pregnancy took: CS drug for malaria
+M49F,0,No
+M49F,1,Yes
+M49F,8,Don't know
+M49G,Variable Label,NA - During pregnancy took: CS drug for malaria
+M49G,0,No
+M49G,1,Yes
+M49G,8,Don't know
+M49X,Variable Label,During pregnancy took: other drug for malaria
+M49X,0,No
+M49X,1,Yes
+M49X,8,Don't know
+M49Y,Variable Label,During pregnancy took: no drug for malaria
+M49Y,0,No
+M49Y,1,"Yes, took no drug"
+M49Y,8,Don't know
+M49Z,Variable Label,During pregnancy took: don't know
+M49Z,0,No
+M49Z,1,Yes
+M49Z,8,Don't know
+M5,Variable Label,Months of breastfeeding
+M5,93,"Ever breastfed, not currently breastfeeding"
+M5,94,Never breastfed
+M5,97,Inconsistent
+M5,98,Don't know
+M50,Variable Label,Responden'ts check up after devlivery
+M50,0,No
+M50,1,Yes
+M51,Variable Label,Respondent's checkup after deliver timing
+M51,100,Immediately/in first hour
+M51,101,Hours: 1
+M51,199,Hours: number missing
+M51,201,Days: 1
+M51,299,Days: number missing
+M51,301,Weeks: 1
+M51,399,Weeks: number missing
+M51,998,Don't know
+M52,Variable Label,Respondent's health professional checked up after delivery
+M52,10,HEALTH PROFESSIONAL
+M52,11,Doctor
+M52,12,Midwife
+M52,13,Nurse
+M52,20,OTHER PERSON
+M52,21,Trained birth attendant
+M52,22,Traditional birth attendant
+M52,96,Other
+M54,Variable Label,Received Vitamin A dose in first 2 months after delivery
+M54,0,No
+M54,1,Yes
+M54,8,Don't know
+M55A,Variable Label,"First 3 days, given milk (other than breast milk)"
+M55A,0,No
+M55A,1,Yes
+M55B,Variable Label,"First 3 days, given plain water"
+M55B,0,No
+M55B,1,Yes
+M55C,Variable Label,"First 3 days, given sugar/glucose water"
+M55C,0,No
+M55C,1,Yes
+M55D,Variable Label,"First 3 days, given gripe water"
+M55D,0,No
+M55D,1,Yes
+M55E,Variable Label,"First 3 days, given sugar/salt solution"
+M55E,0,No
+M55E,1,Yes
+M55F,Variable Label,"First 3 days, given fruit juice"
+M55F,0,No
+M55F,1,Yes
+M55G,Variable Label,"First 3 days, given infant formula"
+M55G,0,No
+M55G,1,Yes
+M55H,Variable Label,"First 3 days, given tea/infusions"
+M55H,0,No
+M55H,1,Yes
+M55I,Variable Label,"First 3 days, given honey"
+M55I,0,No
+M55I,1,Yes
+M55J,Variable Label,"NA - First 3 days, given coffee"
+M55J,0,No
+M55J,1,Yes
+M55K,Variable Label,"First 3 days, holy water"
+M55K,0,No
+M55K,1,Yes
+M55L,Variable Label,"NA - First 3 days, given country specific"
+M55L,0,No
+M55L,1,Yes
+M55M,Variable Label,"NA - First 3 days, given country specific"
+M55M,0,No
+M55M,1,Yes
+M55N,Variable Label,"NA - First 3 days, given country specific"
+M55N,0,No
+M55N,1,Yes
+M55O,Variable Label,"NA - First 3 days, given country specific"
+M55O,0,No
+M55O,1,Yes
+M55X,Variable Label,"First 3 days, given other"
+M55X,0,No
+M55X,1,Yes
+M55Z,Variable Label,"First 3 days, given nothing"
+M55Z,0,No: given something
+M55Z,1,Yes: given nothing
+M57A,Variable Label,Antenatal care: respondent's home
+M57A,0,No
+M57A,1,Yes
+M57B,Variable Label,Antenatal care: other home
+M57B,0,No
+M57B,1,Yes
+M57C,Variable Label,NA - Antenatal care: CS home
+M57C,0,No
+M57C,1,Yes
+M57D,Variable Label,NA - Antenatal care: CS home
+M57D,0,No
+M57D,1,Yes
+M57E,Variable Label,Antenatal care: government hospital
+M57E,0,No
+M57E,1,Yes
+M57F,Variable Label,Antenatal care: government health center/maternity
+M57F,0,No
+M57F,1,Yes
+M57G,Variable Label,Antenatal care: government health post
+M57G,0,No
+M57G,1,Yes
+M57H,Variable Label,Antenatal care: other public
+M57H,0,No
+M57H,1,Yes
+M57I,Variable Label,Antenatal care: CS public health
+M57I,0,No
+M57I,1,Yes
+M57J,Variable Label,Antenatal care: CS public health
+M57J,0,No
+M57J,1,Yes
+M57K,Variable Label,Antenatal care: CS public health
+M57K,0,No
+M57K,1,Yes
+M57L,Variable Label,NA - Antenatal care: CS public health
+M57L,0,No
+M57L,1,Yes
+M57M,Variable Label,Antenatal care: private hospital/clinic
+M57M,0,No
+M57M,1,Yes
+M57N,Variable Label,Antenatal care: other private medical
+M57N,0,No
+M57N,1,Yes
+M57O,Variable Label,Antenatal care: CS private medical
+M57O,0,No
+M57O,1,Yes
+M57P,Variable Label,Antenatal care: CS private medical
+M57P,0,No
+M57P,1,Yes
+M57Q,Variable Label,Antenatal care: CS private medical
+M57Q,0,No
+M57Q,1,Yes
+M57R,Variable Label,Antenatal care: CS private medical
+M57R,0,No
+M57R,1,Yes
+M57S,Variable Label,Antenatal care: CS other
+M57S,0,No
+M57S,1,Yes
+M57T,Variable Label,Antenatal care: CS other
+M57T,0,No
+M57T,1,Yes
+M57U,Variable Label,Antenatal care: CS other
+M57U,0,No
+M57U,1,Yes
+M57V,Variable Label,Antenatal care: CS other
+M57V,0,No
+M57V,1,Yes
+M57X,Variable Label,Antenatal care: other
+M57X,0,No
+M57X,1,Yes
+M6,Variable Label,Duration of amenorrhea
+M6,96,Period not returned
+M6,97,Inconsistent
+M6,98,Don't know
+M60,Variable Label,Drugs for intestinal parasites during pregnancy
+M60,0,No
+M60,1,Yes
+M60,8,Don't know
+M61,Variable Label,NA - Time spent at place of delivery
+M61,100,Hours: 0
+M61,101,Hours: 1
+M61,199,Hours: number missing
+M61,201,Days: 1
+M61,299,Days: number missing
+M61,301,Weeks: 1
+M61,399,Weeks: number missing
+M61,998,Don't know
+M62,Variable Label,Respondent's health checked before discharge
+M62,0,No
+M62,1,Yes
+M62,8,Don't know
+M65A,Variable Label,NA - Reason didn't deliver at health facility: cost too much
+M65A,0,No
+M65A,1,Yes
+M65B,Variable Label,NA - Reason didn't deliver at health facility: facility not open
+M65B,0,No
+M65B,1,Yes
+M65C,Variable Label,NA - Reason didn't deliver at health facility: too far/no transport
+M65C,0,No
+M65C,1,Yes
+M65D,Variable Label,NA - Reason didn't deliver at health facility: don't trust facility/poor service
+M65D,0,No
+M65D,1,Yes
+M65E,Variable Label,NA - Reason didn't deliver at health facility: no female provider
+M65E,0,No
+M65E,1,Yes
+M65F,Variable Label,NA - Reason didn't deliver at health facility: husband/family didn't allow
+M65F,0,No
+M65F,1,Yes
+M65G,Variable Label,NA - Reason didn't deliver at health facility: not necessary
+M65G,0,No
+M65G,1,Yes
+M65H,Variable Label,NA - Reason didn't deliver at health facility: not customary
+M65H,0,No
+M65H,1,Yes
+M65I,Variable Label,NA - Reason didn't deliver at health facility: CS
+M65I,0,No
+M65I,1,Yes
+M65J,Variable Label,NA - Reason didn't deliver at health facility: CS
+M65J,0,No
+M65J,1,Yes
+M65K,Variable Label,NA - Reason didn't deliver at health facility: CS
+M65K,0,No
+M65K,1,Yes
+M65L,Variable Label,NA - Reason didn't deliver at health facility: CS
+M65L,0,No
+M65L,1,Yes
+M65X,Variable Label,NA - Reason didn't deliver at health facility: other
+M65X,0,No
+M65X,1,Yes
+M66,Variable Label,Respondent's health checked after discharge/delivery at home
+M66,0,No
+M66,1,Yes
+M66,8,Don't know
+M7,Variable Label,Months of amenorrhea
+M7,97,Inconsistent
+M7,98,Don't know
+M70,Variable Label,Baby postnatal check within 2 months
+M70,0,No
+M70,1,Yes
+M70,8,Don't know
+M71,Variable Label,Time after delivery postnatal check took place
+M71,100,Immediately/in first hour
+M71,101,Hours: 1
+M71,199,Hours: number missing
+M71,201,Days: 1
+M71,299,Days: number missing
+M71,301,Weeks: 1
+M71,399,Weeks: number missing
+M71,998,Don't know
+M72,Variable Label,Person who performed postnatal checkup
+M72,10,MEDICAL PERSONNEL
+M72,11,Doctor
+M72,12,Midwife
+M72,13,Nurse
+M72,20,OTHER PERSON
+M72,21,Trained traditional birth attendant
+M72,22,Traditional birth attendant
+M72,96,Other
+M73,Variable Label,Place baby was first checked
+M73,10,HOME
+M73,11,Respondent's home
+M73,12,Other home
+M73,20,PUBLIC SECTOR
+M73,21,Government hospital
+M73,22,Government health center
+M73,23,Government health post
+M73,26,Other public sector
+M73,30,PRIVATE SECTOR
+M73,31,"Private hospital, clinic"
+M73,36,Other private sector
+M73,96,Other
+M8,Variable Label,Duration of abstinence
+M8,96,Still abstaining
+M8,97,Inconsistent
+M8,98,Don't know
+M9,Variable Label,Months of abstinence
+M9,97,Inconsistent
+M9,98,Don't know
+MIDX,Variable Label,Index to Birth History
+ML0,Variable Label,Type of mosquito bed net(s) child slept under last night
+ML0,0,No net
+ML0,1,Only treated nets
+ML0,2,Both treated and untreated nets
+ML0,3,Only untreated nets
+ML1,Variable Label,Number of times took fansidar during pregnancy
+ML1,98,Don't know
+ML101,Variable Label,Type of mosquito bed net(s) slept under last night
+ML101,0,No net
+ML101,1,Only treated nets
+ML101,2,Both treated and untreated nets
+ML101,3,Only untreated nets
+ML11,Variable Label,NA - Child has fever/cough now
+ML11,0,No
+ML11,1,"Yes, fever only"
+ML11,2,"Yes, cough only"
+ML11,3,Both fever and cough
+ML11,8,Don't know
+ML12,Variable Label,NA - Child has had convulsions in last 2 weeks
+ML12,0,No
+ML12,1,Yes
+ML12,8,Don't know
+ML13A,Variable Label,Fansidar taken for fever/cough
+ML13A,0,No
+ML13A,1,Yes
+ML13B,Variable Label,NA - Chloroquine taken for fever/cough
+ML13B,0,No
+ML13B,1,Yes
+ML13C,Variable Label,Amodiaquine taken for fever/cough
+ML13C,0,No
+ML13C,1,Yes
+ML13D,Variable Label,Quinine taken for fever/cough
+ML13D,0,No
+ML13D,1,Yes
+ML13E,Variable Label,Combination with artemisinin taken for fever/cough
+ML13E,0,No
+ML13E,1,Yes
+ML13F,Variable Label,NA - ACT taken for fever/cough
+ML13F,0,No
+ML13F,1,Yes
+ML13G,Variable Label,NA - CS antimalarial taken for fever/cough
+ML13G,0,No
+ML13G,1,Yes
+ML13H,Variable Label,Other antimalarial taken for fever/cough
+ML13H,0,No
+ML13H,1,Yes
+ML13I,Variable Label,Antibiotic pill/syrup taken for fever/cough
+ML13I,0,No
+ML13I,1,Yes
+ML13J,Variable Label,Antibiotic injection taken for fever/cough
+ML13J,0,No
+ML13J,1,Yes
+ML13K,Variable Label,Aspirin taken for fever/cough
+ML13K,0,No
+ML13K,1,Yes
+ML13L,Variable Label,Acetaminophen/paracetamol/panadol taken for fever/cough
+ML13L,0,No
+ML13L,1,Yes
+ML13M,Variable Label,Ibuprofen taken for fever/cough
+ML13M,0,No
+ML13M,1,Yes
+ML13N,Variable Label,NA - CS other taken for fever/cough
+ML13N,0,No
+ML13N,1,Yes
+ML13O,Variable Label,NA - CS other taken for fever/cough
+ML13O,0,No
+ML13O,1,Yes
+ML13P,Variable Label,NA - CS other taken for fever/cough
+ML13P,0,No
+ML13P,1,Yes
+ML13X,Variable Label,Other taken for fever/cough
+ML13X,0,No
+ML13X,1,Yes
+ML13Y,Variable Label,Nothing taken for fever/cough
+ML13Y,0,No
+ML13Y,1,"Yes, nothing taken"
+ML13Z,Variable Label,Don't know if or what was taken for fever/cough
+ML13Z,0,No
+ML13Z,1,"Yes, don't know"
+ML14A,Variable Label,NA - Injection given for fever/convulsion***
+ML14A,0,No
+ML14A,1,Yes
+ML14B,Variable Label,NA - Suppository given for fever/convulsion***
+ML14B,0,No
+ML14B,1,Yes
+ML14Y,Variable Label,NA - No suppository or injection given for fever/convulsion***
+ML14Y,0,No
+ML14Y,1,Yes
+ML14Z,Variable Label,NA - Don't know if suppository or injection given for fever/convulsion***
+ML14Z,0,No
+ML14Z,1,Yes
+ML15A,Variable Label,Timing of start of fansidar
+ML15A,0,Same day as fever/cough
+ML15A,1,Next day
+ML15A,2,2 days after
+ML15A,3,3 days after
+ML15A,4,4+ days after
+ML15A,8,Don't know
+ML15B,Variable Label,NA - Number of days child took fansidar
+ML15B,7,7+ days
+ML15B,8,Don't know
+ML15C,Variable Label,NA - First source for fansidar
+ML15C,0,Other source
+ML15C,1,At home
+ML15C,8,Don't know
+ML16A,Variable Label,NA - Timing of start of chloroquine
+ML16A,0,Same day as fever/cough
+ML16A,1,Next day
+ML16A,2,2 days after
+ML16A,3,3 days after
+ML16A,4,4+ days after
+ML16A,8,Don't know
+ML16B,Variable Label,NA - Number of days child took chloroquine
+ML16B,7,7+ days
+ML16B,8,Don't know
+ML16C,Variable Label,NA - First source for chloroquine
+ML16C,0,Other source
+ML16C,1,At home
+ML16C,8,Don't know
+ML17A,Variable Label,Timing of start of amodiaquine
+ML17A,0,Same day as fever/cough
+ML17A,1,Next day
+ML17A,2,2 days after
+ML17A,3,3 days after
+ML17A,4,4+ days after
+ML17A,8,Don't know
+ML17B,Variable Label,NA - Number of days child took amodiaquine
+ML17B,7,7+ days
+ML17B,8,Don't know
+ML17C,Variable Label,NA - First source for amodiaquine
+ML17C,0,Other source
+ML17C,1,At home
+ML17C,8,Don't know
+ML18A,Variable Label,Timing of start of quinine
+ML18A,0,Same day as fever/cough
+ML18A,1,Next day
+ML18A,2,2 days after
+ML18A,3,3 days after
+ML18A,4,4+ days after
+ML18A,8,Don't know
+ML18B,Variable Label,NA - Number of days child took quinine
+ML18B,7,7+ days
+ML18B,8,Don't know
+ML18C,Variable Label,NA - First source for quinine
+ML18C,0,Other source
+ML18C,1,At home
+ML18C,8,Don't know
+ML19A,Variable Label,NA - For fever/convulsion: consulted traditional healer***
+ML19A,0,No
+ML19A,1,Yes
+ML19B,Variable Label,NA - For fever/convulsion: gave tepid sponging***
+ML19B,0,No
+ML19B,1,Yes
+ML19C,Variable Label,NA - For fever/convulsion: gave herbs***
+ML19C,0,No
+ML19C,1,Yes
+ML19D,Variable Label,NA - For fever/convulsion: CS***
+ML19D,0,No
+ML19D,1,Yes
+ML19E,Variable Label,NA - For fever/convulsion: CS***
+ML19E,0,No
+ML19E,1,Yes
+ML19F,Variable Label,NA - For fever/convulsion: CS***
+ML19F,0,No
+ML19F,1,Yes
+ML19X,Variable Label,NA - For fever/convulsion: other***
+ML19X,0,No
+ML19X,1,Yes
+ML19Y,Variable Label,NA - For fever/convulsion: gave/did nothing***
+ML19Y,0,No
+ML19Y,1,Yes
+ML19Z,Variable Label,NA - For fever/convulsion: don't know if something else was done***
+ML19Z,0,No
+ML19Z,1,Yes
+ML2,Variable Label,Source of antimalarial during pregnancy
+ML2,1,Antenatal visit
+ML2,2,Another facility visit
+ML2,6,Other source
+ML20A,Variable Label,Timing of start of combination with artemisinin
+ML20A,0,Same day as fever/cough
+ML20A,1,Next day
+ML20A,2,2 days after
+ML20A,3,3 days after
+ML20A,4,4+ days after
+ML20A,8,Don't know
+ML20B,Variable Label,NA - Number of days child took combination with artemisinin
+ML20B,7,7+ days
+ML20B,8,Don't know
+ML20C,Variable Label,NA - First source for combination with artemisinin
+ML20C,0,Other source
+ML20C,1,At home
+ML20C,8,Don't know
+ML21A,Variable Label,NA - Timing of start of ACT use
+ML21A,0,Same day as fever/cough
+ML21A,1,Next day
+ML21A,2,2 days after
+ML21A,3,3 days after
+ML21A,4,4+ days after
+ML21A,8,Don't know
+ML21B,Variable Label,NA - Number of days child took CS antimalarial
+ML21B,7,7+ days
+ML21B,8,Don't know
+ML21C,Variable Label,NA - First source for CS antimalarial
+ML21C,0,Other source
+ML21C,1,At home
+ML21C,8,Don't know
+ML22A,Variable Label,NA - Timing of start of CS antimalarial use
+ML22A,0,Same day as fever/cough
+ML22A,1,Next day
+ML22A,2,2 days after
+ML22A,3,3 days after
+ML22A,4,4+ days after
+ML22A,8,Don't know
+ML22B,Variable Label,NA - Number of days child took CS antimalarial
+ML22B,7,7+ days
+ML22B,8,Don't know
+ML22C,Variable Label,NA - First source for CS antimalarial
+ML22C,0,Other source
+ML22C,1,At home
+ML22C,8,Don't know
+ML23A,Variable Label,Timing of start of other anti-malarial use
+ML23A,0,Same day as fever/cough
+ML23A,1,Next day
+ML23A,2,2 days after
+ML23A,3,3 days after
+ML23A,4,4+ days after
+ML23A,8,Don't know
+ML23B,Variable Label,NA - Number of days child took other anti-malarial
+ML23B,7,7+ days
+ML23B,8,Don't know
+ML23C,Variable Label,NA - First source for other anti-malarial
+ML23C,0,Other source
+ML23C,1,At home
+ML23C,8,Don't know
+ML24C,Variable Label,NA - First source for antibiotic pill/syrup
+ML24C,0,Other source
+ML24C,1,At home
+ML24C,8,Don't know
+S105,Variable Label,Highest educational level
+S106,Variable Label,Highest grade at that level
+S106,0,0 année
+S106,1,1 année
+S106,2,2 années
+S106,3,3 années
+S106,4,4 années
+S106,5,5 années
+S106,6,6 années
+S106,7,7 années
+S106,8,8 années
+S108BA,Variable Label,Program language: Arabic
+S108BA,0,No
+S108BA,1,Yes
+S108BB,Variable Label,Program language: Wolof
+S108BB,0,No
+S108BB,1,Yes
+S108BC,Variable Label,Program language: Poular
+S108BC,0,No
+S108BC,1,Yes
+S108BD,Variable Label,Program language: Serer
+S108BD,0,No
+S108BD,1,Yes
+S108BE,Variable Label,Program language: Diola
+S108BE,0,No
+S108BE,1,Yes
+S108BF,Variable Label,Program language: Mandingue
+S108BF,0,No
+S108BF,1,Yes
+S108BG,Variable Label,Program language: Soninke
+S108BG,0,No
+S108BG,1,Yes
+S108BX,Variable Label,Program language: Other
+S108BX,0,No
+S108BX,1,Yes
+S224B,Variable Label,Who mostly participated in child development activities
+S224B,1,Father
+S224B,2,Mother
+S224B,3,Other household member
+S224B,4,No household member
+S224B,8,Don't know
+S224CA,Variable Label,Child development activities: reading books
+S224CA,0,No
+S224CA,1,Yes
+S224CB,Variable Label,Child development activities: telling stories
+S224CB,0,No
+S224CB,1,Yes
+S224CC,Variable Label,Child development activities: singing song
+S224CC,0,No
+S224CC,1,Yes
+S224CD,Variable Label,Child development activities: Taking a walk
+S224CD,0,No
+S224CD,1,Yes
+S224CE,Variable Label,Child development activities: Playing with
+S224CE,0,No
+S224CE,1,Yes
+S224CF,Variable Label,Child development activities: Counting/drawing/naming objects
+S224CF,0,No
+S224CF,1,Yes
+S224CX,Variable Label,Child development activities: other
+S224CX,0,No
+S224CX,1,Yes
+S421AA,Variable Label,Source for iron tablets: government hospital
+S421AA,0,No
+S421AA,1,Yes
+S421AA,8,Don't know
+S421AB,Variable Label,Source for iron tablets: government health center
+S421AB,0,No
+S421AB,1,Yes
+S421AB,8,Don't know
+S421AC,Variable Label,Source for iron tablets: government health post
+S421AC,0,No
+S421AC,1,Yes
+S421AC,8,Don't know
+S421AD,Variable Label,"Source for iron tablets: Community health center (""Case de santé"")"
+S421AD,0,No
+S421AD,1,Yes
+S421AD,8,Don't know
+S421AE,Variable Label,Source for iron tablets: Mobile clinic
+S421AE,0,No
+S421AE,1,Yes
+S421AE,8,Don't know
+S421AF,Variable Label,Source for iron tablets: Health worker
+S421AF,0,No
+S421AF,1,Yes
+S421AF,8,Don't know
+S421AG,Variable Label,Source for iron tablets: other public
+S421AG,0,No
+S421AG,1,Yes
+S421AG,8,Don't know
+S421AH,Variable Label,Source for iron tablets: private hospital/clinic
+S421AH,0,No
+S421AH,1,Yes
+S421AH,8,Don't know
+S421AI,Variable Label,Source for iron tablets: Private Pharmacy
+S421AI,0,No
+S421AI,1,Yes
+S421AI,8,Don't know
+S421AJ,Variable Label,Source for iron tablets: Private doctor
+S421AJ,0,No
+S421AJ,1,Yes
+S421AJ,8,Don't know
+S421AK,Variable Label,Source for iron tablets: Private mobile clinic
+S421AK,0,No
+S421AK,1,Yes
+S421AK,8,Don't know
+S421AL,Variable Label,Source for iron tablets: Private health worker
+S421AL,0,No
+S421AL,1,Yes
+S421AL,8,Don't know
+S421AM,Variable Label,Source for iron tablets: other private medical
+S421AM,0,No
+S421AM,1,Yes
+S421AM,8,Don't know
+S421AN,Variable Label,Source for iron tablets: Other source - Shop
+S421AN,0,No
+S421AN,1,Yes
+S421AN,8,Don't know
+S421AO,Variable Label,Source for iron tablets: Other source - traditional practitioner
+S421AO,0,No
+S421AO,1,Yes
+S421AO,8,Don't know
+S421AP,Variable Label,Source for iron tablets: Other source - market
+S421AP,0,No
+S421AP,1,Yes
+S421AP,8,Don't know
+S421AQ,Variable Label,Source for iron tablets: Other source - community worker
+S421AQ,0,No
+S421AQ,1,Yes
+S421AQ,8,Don't know
+S421AX,Variable Label,Source for iron tablets: other
+S421AX,0,No
+S421AX,1,Yes
+S421AX,8,Don't know
+S427A,Variable Label,Received free bednet during visit
+S427A,0,No
+S427A,1,Yes
+S432A,Variable Label,Birth was registered
+S432A,0,Non
+S432A,1,Yes
+S432A,8,DK
+S459A,Variable Label,Months child was breastfed
+S459A,95,Still breasfeeding
+S459A,98,Don't know
+S459AF,Variable Label,Flag for breastfeeding
+S459AF,0,No flag
+S459AF,1,> interval
+S459AF,2,> interval by 1 mnth
+S459AF,3,> age at death
+S459AF,4,During preg in cal.
+S524AA,Variable Label,What done to treat diarrhea: sought treatment from health provider
+S524AA,0,No
+S524AA,1,Yes
+S524AB,Variable Label,What done to treat diarrhea: Gave ORS/Zinc
+S524AB,0,No
+S524AB,1,Yes
+S524AX,Variable Label,What done to treat diarrhea: Other
+S524AX,0,No
+S524AX,1,Yes
+S524AY,Variable Label,What done to treat diarrhea: Nothing (no treatment)
+S524AY,0,No
+S524AY,1,Yes
+S524BA,Variable Label,Advantages of ORS/Zinc: Reduces severity of diarrhea
+S524BA,0,No
+S524BA,1,Yes
+S524BB,Variable Label,Advantages of ORS/Zinc: Reduces duration of diarrhea
+S524BB,0,No
+S524BB,1,Yes
+S524BC,Variable Label,Advantages of ORS/Zinc: Reduces frequency of diarrhea
+S524BC,0,No
+S524BC,1,Yes
+S524BX,Variable Label,Advantages of ORS/Zinc: Other
+S524BX,0,No
+S524BX,1,Yes
+S524BZ,Variable Label,Advantages of ORS/Zinc: Don't know
+S524BZ,0,No
+S524BZ,1,Yes
+S536B,Variable Label,Received malaria test as part of fever treatment
+S536B,0,No
+S536B,1,Yes
+S536C,Variable Label,Result of malaria test as part of fever treatment
+S536C,0,Negative
+S536C,1,Positive
+S536C,8,Don't know
+S804,Variable Label,Partner's level of education
+S804,0,No education
+S804,1,Primary
+S804,2,Middle
+S804,3,Secondary
+S804,4,Higher
+S804,8,Don't know
+S805,Variable Label,Partner's highest grade
+S805,0,0 année
+S805,1,1 année
+S805,2,2 années
+S805,3,3 années
+S805,4,4 années
+S805,5,5 années
+S805,6,6 années
+S805,7,7 années
+S805,8,8 années
+S805,98,Ne sait pas
+SILANG,Variable Label,Language of the interview
+SILANG,1,French
+SILANG,2,Wolof
+SILANG,3,Poular
+SILANG,4,Serer
+SILANG,5,Mandingue
+SILANG,6,Diola
+SILANG,8,Other
+SINTERP,Variable Label,Use of interpreter
+SINTERP,0,No
+SINTERP,1,Yes
+SPHASE,Variable Label,Phase of continuous survey
+SPHASE,1,Round 1 : 9/2012 - 6/2013
+SPHASE,2,Round 2 : 2014
+SV00512,Variable Label,Women's individual sample weight (6 decimals) for 2012-13 data only
+SV00514,Variable Label,Women's individual sample weight (6 decimals) for 2014 data only
+SV190_12,Variable Label,Wealth index : 2012-13 Data only
+SV190_12,1,Poorest
+SV190_12,2,Poorer
+SV190_12,3,Middle
+SV190_12,4,Richer
+SV190_12,5,Richest
+SV190_14,Variable Label,Wealth index : 2014 Data only
+SV190_14,1,Poorest
+SV190_14,2,Poorer
+SV190_14,3,Middle
+SV190_14,4,Richer
+SV190_14,5,Richest
+SV191_12,Variable Label,Wealth index factor score  : 2012-13 Data only (5 decimals)
+SV191_14,Variable Label,Wealth index factor score  : 2014 Data only (5 decimals)
+SWFR12,Variable Label,Score for 2012-13 data  - rural
+SWFR14,Variable Label,Score for 2014 data  - rural
+SWFU12,Variable Label,Score for 2012-13 Data - urban
+SWFU14,Variable Label,Score for 2014 data  - urban
+SWIR12,Variable Label,Quintile for 2012-13 Data - rural
+SWIR12,1,Poorest
+SWIR12,2,Poorer
+SWIR12,3,Middle
+SWIR12,4,Richer
+SWIR12,5,Richest
+SWIR14,Variable Label,Quintile for 2014 data  - rural
+SWIU12,Variable Label,Quintile for 2012-13 Data - urban
+SWIU12,1,Poorest
+SWIU12,2,Poorer
+SWIU12,3,Middle
+SWIU12,4,Richer
+SWIU12,5,Richest
+SWIU14,Variable Label,Quintile for 2014 data  - urban
+SYF,Variable Label,Received Yellow Fever
+SYF,0,No
+SYF,1,Vaccination date on card
+SYF,2,Reported by mother
+SYF,3,Vaccination marked on card
+SYF,8,Don't know
+SYFD,Variable Label,Yellow Fever day
+SYFD,97,Inconsistent
+SYFD,98,Don't know
+SYFM,Variable Label,Yellow Fever month
+SYFM,97,Inconsistent
+SYFM,98,Don't know
+SYFY,Variable Label,Yellow Fever year
+SYFY,9997,Inconsistent
+SYFY,9998,Don't know
+V000,Variable Label,Country code and phase
+V001,Variable Label,Cluster number
+V002,Variable Label,Household number
+V003,Variable Label,Respondent's line number
+V004,Variable Label,Ultimate area unit
+V005,Variable Label,Women's individual sample weight (6 decimals)
+V006,Variable Label,Month of interview
+V007,Variable Label,Year of interview
+V008,Variable Label,Date of interview (CMC)
+V009,Variable Label,Respondent's month of birth
+V010,Variable Label,Respondent's year of birth
+V011,Variable Label,Date of birth (CMC)
+V012,Variable Label,Respondent's current age
+V013,Variable Label,Age in 5-year groups
+V013,1,15-19
+V013,2,20-24
+V013,3,25-29
+V013,4,30-34
+V013,5,35-39
+V013,6,40-44
+V013,7,45-49
+V014,Variable Label,Completeness of age information
+V014,1,Month and year - information complete
+V014,2,Month and age - year imputed
+V014,3,Year and age - month imputed
+V014,4,Year and age - year ignored
+V014,5,Year - age/month imputed
+V014,6,Age - year/month imputed
+V014,7,Month - age/year imputed
+V014,8,None - all imputed
+V015,Variable Label,Result of individual interview
+V015,1,Completed
+V015,2,Not at home
+V015,3,Postponed
+V015,4,Refused
+V015,5,Partially completed
+V015,6,Respondent incapacitated
+V015,7,Other
+V016,Variable Label,Day of interview
+V017,Variable Label,CMC start of calendar
+V018,Variable Label,Row of month of interview
+V018,0,No calendar
+V019,Variable Label,Length of calendar
+V019,0,No calendar
+V019A,Variable Label,Number of calendar columns
+V019A,0,No calendar
+V020,Variable Label,Ever-married sample
+V020,0,All woman sample
+V020,1,Ever married sample
+V021,Variable Label,Primary sampling unit
+V022,Variable Label,Sample strata for sampling errors
+V022,1,Dakar:Urban
+V022,2,Dakar:Rural
+V022,3,Ziguinchor:Urban
+V022,4,Ziguinchor:Rural
+V022,5,Diourbel:Urban
+V022,6,Diourbel:Rural
+V022,7,Saint-Louis:Urban
+V022,8,Saint-Louis:Rural
+V022,9,Tambacounda:Urban
+V022,10,Tambacounda:Rural
+V022,11,Kaolack:Urban
+V022,12,Kaolack:Rural
+V022,13,Thiès:Urban
+V022,14,Thiès:Rural
+V022,15,Louga:Urban
+V022,16,Louga:Rural
+V022,17,Fatick:Urban
+V022,18,Fatick:Rural
+V022,19,Kolda:Urban
+V022,20,Kolda:Rural
+V022,21,Matam:Urban
+V022,22,Matam:Rural
+V022,23,Kaffrine:Urban
+V022,24,Kaffrine:Rural
+V022,25,Kedougou:Urban
+V022,26,Kedougou:Rural
+V022,27,Sedhiou:Urban
+V022,28,Sedhiou:Rural
+V023,Variable Label,Stratification used in sample design
+V023,1,Dakar:Urban
+V023,2,Dakar:Rural
+V023,3,Ziguinchor:Urban
+V023,4,Ziguinchor:Rural
+V023,5,Diourbel:Urban
+V023,6,Diourbel:Rural
+V023,7,Saint-Louis:Urban
+V023,8,Saint-Louis:Rural
+V023,9,Tambacounda:Urban
+V023,10,Tambacounda:Rural
+V023,11,Kaolack:Urban
+V023,12,Kaolack:Rural
+V023,13,Thiès:Urban
+V023,14,Thiès:Rural
+V023,15,Louga:Urban
+V023,16,Louga:Rural
+V023,17,Fatick:Urban
+V023,18,Fatick:Rural
+V023,19,Kolda:Urban
+V023,20,Kolda:Rural
+V023,21,Matam:Urban
+V023,22,Matam:Rural
+V023,23,Kaffrine:Urban
+V023,24,Kaffrine:Rural
+V023,25,Kedougou:Urban
+V023,26,Kedougou:Rural
+V023,27,Sedhiou:Urban
+V023,28,Sedhiou:Rural
+V024,Variable Label,Region
+V024,1,Dakar
+V024,2,Ziguinchor
+V024,3,Diourbel
+V024,4,Saint-Louis
+V024,5,Tambacounda
+V024,6,Kaolack
+V024,7,Thiès
+V024,8,Louga
+V024,9,Fatick
+V024,10,Kolda
+V024,11,Matam
+V024,12,Kaffrine
+V024,13,Kedougou
+V024,14,Sedhiou
+V025,Variable Label,Type of place of residence
+V025,1,Urban
+V025,2,Rural
+V026,Variable Label,NA - De facto place of residence
+V026,0,"Capital, large city"
+V026,1,Small city
+V026,2,Town
+V026,3,Countryside
+V027,Variable Label,Number of visits
+V028,Variable Label,Interviewer identification
+V029,Variable Label,NA - Keyer identification
+V030,Variable Label,Field supervisor
+V031,Variable Label,NA - Field editor
+V032,Variable Label,NA - Office editor
+V034,Variable Label,Line number of husband
+V034,0,Husband not in household
+V040,Variable Label,NA - Cluster altitude in meters
+V042,Variable Label,Household selected for hemoglobin
+V042,0,Not selected
+V042,1,Selected
+V044,Variable Label,NA - Selected for Domestic Violence module
+V044,0,Woman not selected
+V044,1,Woman selected and interviewed
+V044,2,"Woman selected, but privacy not possible"
+V044,3,"Woman selected, but not interviewed"
+V101,Variable Label,Region
+V101,1,Dakar
+V101,2,Ziguinchor
+V101,3,Diourbel
+V101,4,Saint-Louis
+V101,5,Tambacounda
+V101,6,Kaolack
+V101,7,Thiès
+V101,8,Louga
+V101,9,Fatick
+V101,10,Kolda
+V101,11,Matam
+V101,12,Kaffrine
+V101,13,Kedougou
+V101,14,Sedhiou
+V102,Variable Label,Type of place of residence
+V102,1,Urban
+V102,2,Rural
+V103,Variable Label,NA - Childhood place of residence
+V103,0,"Capital, large city"
+V103,1,City
+V103,2,Town
+V103,3,Countryside
+V103,4,Abroad
+V104,Variable Label,NA - Years lived in place of residence
+V104,95,Always
+V104,96,Visitor
+V104,97,Inconsistent
+V104,98,Don't know
+V105,Variable Label,NA - Type of place of previous residence
+V105,0,"Capital, large city"
+V105,1,City
+V105,2,Town
+V105,3,Countryside
+V105,4,Abroad
+V106,Variable Label,Highest educational level
+V106,0,No education
+V106,1,Primary
+V106,2,Secondary
+V106,3,Higher
+V107,Variable Label,Highest year of education
+V107,0,No years completed at level V106
+V113,Variable Label,Source of drinking water
+V113,10,PIPED WATER
+V113,11,Piped into dwelling
+V113,12,Piped to yard/plot
+V113,13,Public tap/standpipe
+V113,20,TUBE WELL WATER
+V113,21,Tube well or borehole
+V113,30,DUG WELL (OPEN/PROTECTED)
+V113,31,Protected well
+V113,32,Unprotected well
+V113,40,SURFACE WATER
+V113,41,Protected spring
+V113,42,Unprotected spring
+V113,43,River/dam/lake/ponds/stream/canal/irrigation channel
+V113,51,Rainwater
+V113,61,Tanker truck
+V113,62,Cart with small tank
+V113,71,Bottled water
+V113,96,Other
+V113,97,Not a dejure resident
+V115,Variable Label,Time to get to water source
+V115,996,On premises
+V115,997,Not a dejure resident
+V115,998,Don't know
+V116,Variable Label,Type of toilet facility
+V116,10,FLUSH TOILET
+V116,11,Flush to piped sewer system
+V116,12,Flush to septic tank
+V116,13,Flush to pit latrine
+V116,14,Flush to somewhere else
+V116,15,"Flush, don't know where"
+V116,20,PIT TOILET LATRINE
+V116,21,Ventilated Improved Pit latrine (VIP)
+V116,22,Pit latrine with slab
+V116,23,Pit latrine without slab/open pit
+V116,24,Latrine with manual flush
+V116,25,Other inproved system
+V116,26,Traditional latrine
+V116,30,NO FACILITY
+V116,31,No facility/bush/field
+V116,41,Composting toilet
+V116,42,Bucket toilet
+V116,43,Hanging toilet/latrine
+V116,96,Other
+V116,97,Not a dejure resident
+V119,Variable Label,Household has: electricity
+V119,0,No
+V119,1,Yes
+V119,7,Not a dejure resident
+V120,Variable Label,Household has: radio
+V120,0,No
+V120,1,Yes
+V120,7,Not a dejure resident
+V121,Variable Label,Household has: television
+V121,0,No
+V121,1,Yes
+V121,7,Not a dejure resident
+V122,Variable Label,Household has: refrigerator
+V122,0,No
+V122,1,Yes
+V122,7,Not a dejure resident
+V123,Variable Label,Household has: bicycle
+V123,0,No
+V123,1,Yes
+V123,7,Not a dejure resident
+V124,Variable Label,Household has: motorcycle/scooter
+V124,0,No
+V124,1,Yes
+V124,7,Not a dejure resident
+V125,Variable Label,Household has: car/truck
+V125,0,No
+V125,1,Yes
+V125,7,Not a dejure resident
+V127,Variable Label,Main floor material
+V127,10,NATURAL
+V127,11,"Earth, sand"
+V127,12,Dung
+V127,20,RUDIMENTARY
+V127,21,Wood planks
+V127,22,"Palm, bamboo"
+V127,30,FINISHED
+V127,31,"Parquet, polished wood"
+V127,32,"Vinyl, asphalt strips"
+V127,33,Ceramic tiles
+V127,34,Cement
+V127,35,Carpet
+V127,96,Other
+V127,97,Not de jure
+V128,Variable Label,Main wall material
+V128,10,NATURAL
+V128,11,No walls
+V128,12,Cane / palm / trunks
+V128,13,Dirt
+V128,20,RUDIMENTARY
+V128,21,Bamboo with mud
+V128,22,Stone with mud
+V128,23,Uncovered adobe
+V128,24,Plywood
+V128,25,Cardboard
+V128,26,Reused wood
+V128,30,FINISHED
+V128,31,Cement
+V128,32,Stone with lime / cement
+V128,33,Bricks
+V128,34,Cement blocks
+V128,35,Covered adobe
+V128,36,Wood planks / shingles
+V128,96,Other
+V128,97,Not a dejure resident
+V129,Variable Label,Main roof material
+V129,10,NATURAL
+V129,11,No roof
+V129,12,Thatch / palm leaf
+V129,13,Sod
+V129,20,RUDIMENTARY
+V129,21,Rustic mat
+V129,22,Palm / bamboo
+V129,23,Wood planks
+V129,24,Cardboard
+V129,30,FINISHED
+V129,31,Metal
+V129,32,Wood
+V129,33,Calamine / cement fiber
+V129,34,Ceramic tiles
+V129,35,Cement
+V129,36,Roofing shingles
+V129,96,Other
+V129,97,Not a dejure resident
+V130,Variable Label,Religion
+V130,1,Muslim
+V130,2,Christian
+V130,3,Animist
+V130,4,No religion
+V130,96,Other
+V131,Variable Label,Ethnicity
+V131,1,Wolof
+V131,2,Poular
+V131,3,Serer
+V131,4,Mandingue
+V131,5,Diola
+V131,6,Soninke
+V131,7,Not a Senegalese
+V131,996,Other
+V133,Variable Label,Education in single years
+V133,97,Inconsistent
+V134,Variable Label,NA - De facto place of residence
+V134,0,"Capital, large city"
+V134,1,Small city
+V134,2,Town
+V134,3,Countryside
+V135,Variable Label,Usual resident or visitor
+V135,1,Usual resident
+V135,2,Visitor
+V136,Variable Label,Number of household members (listed)
+V137,Variable Label,Number of children 5 and under in household (de jure)
+V138,Variable Label,Number of eligible women in household (de facto)
+V139,Variable Label,De jure region of residence
+V139,0,Abroad
+V139,1,Dakar
+V139,2,Ziguinchor
+V139,3,Diourbel
+V139,4,Saint-Louis
+V139,5,Tambacounda
+V139,6,Kaolack
+V139,7,Thiès
+V139,8,Louga
+V139,9,Fatick
+V139,10,Kolda
+V139,11,Matam
+V139,12,Kaffrine
+V139,13,Kedougou
+V139,14,Sedhiou
+V139,97,Not dejure resident
+V140,Variable Label,De jure type of place of residence
+V140,0,Abroad
+V140,1,Urban
+V140,2,Rural
+V140,7,Not a dejure resident
+V141,Variable Label,De jure place of residence
+V141,0,"Capital, large city"
+V141,1,City
+V141,2,Town
+V141,3,Countryside
+V141,4,Abroad
+V141,7,Not a dejure resident
+V149,Variable Label,Educational attainment
+V149,0,No education
+V149,1,Incomplete primary
+V149,2,Complete primary
+V149,3,Incomplete secondary
+V149,4,Complete secondary
+V149,5,Higher
+V150,Variable Label,Relationship to household head
+V150,1,Head
+V150,2,Wife
+V150,3,Daughter
+V150,4,Daughter-in-law
+V150,5,Granddaughter
+V150,6,Mother
+V150,7,Mother-in-law
+V150,8,Sister
+V150,9,Co-spouse
+V150,10,Other relative
+V150,11,Adopted/foster child
+V150,12,Not related
+V150,98,Don't know
+V151,Variable Label,Sex of household head
+V151,1,Male
+V151,2,Female
+V152,Variable Label,Age of household head
+V152,97,97+
+V152,98,Don't know
+V153,Variable Label,Household has: telephone (land-line)
+V153,0,No
+V153,1,Yes
+V153,7,Not a dejure resident
+V155,Variable Label,Literacy
+V155,0,Cannot read at all
+V155,1,Able to read only parts of sentence
+V155,2,Able to read whole sentence
+V155,3,No card with required language
+V155,4,Blind/visually impaired
+V156,Variable Label,Ever participated in a literacy program outside of primary
+V156,0,No
+V156,1,Yes
+V157,Variable Label,Frequency of reading newspaper or magazine
+V157,0,Not at all
+V157,1,Less than once a week
+V157,2,At least once a week
+V157,3,Almost every day
+V158,Variable Label,Frequency of listening to radio
+V158,0,Not at all
+V158,1,Less than once a week
+V158,2,At least once a week
+V158,3,Almost every day
+V159,Variable Label,Frequency of watching television
+V159,0,Not at all
+V159,1,Less than once a week
+V159,2,At least once a week
+V159,3,Almost every day
+V160,Variable Label,Toilet facilities shared with other households
+V160,0,No
+V160,1,Yes
+V160,7,Not a dejure resident
+V161,Variable Label,Type of cooking fuel
+V161,1,Electricity
+V161,2,LPG
+V161,3,Natural gas
+V161,4,Biogas
+V161,5,Kerosene
+V161,6,"Coal, lignite"
+V161,7,Charcoal
+V161,8,Wood
+V161,9,Straw/shrubs/grass
+V161,10,Agricultural crop
+V161,11,Animal dung
+V161,95,No food cooked in house
+V161,96,Other
+V161,97,Not a dejure resident
+V166,Variable Label,NA - Result of salt test for iodine
+V166,0,0 ppm (no iodine)
+V166,7,7 ppm
+V166,15,15 ppm
+V166,30,30 ppm
+V166,994,Salt not tested
+V166,995,No salt
+V166,997,Not a dejure resident
+V167,Variable Label,Number of trips in last 12 months
+V167,0,None
+V168,Variable Label,Away for more than one month in last 12 months
+V168,0,No
+V168,1,Yes
+V190,Variable Label,Wealth index
+V190,1,Poorest
+V190,2,Poorer
+V190,3,Middle
+V190,4,Richer
+V190,5,Richest
+V191,Variable Label,Wealth index factor score (5 decimals)
+V201,Variable Label,Total children ever born
+V202,Variable Label,Sons at home
+V203,Variable Label,Daughters at home
+V204,Variable Label,Sons elsewhere
+V205,Variable Label,Daughters elsewhere
+V206,Variable Label,Sons who have died
+V207,Variable Label,Daughters who have died
+V208,Variable Label,Births in last five years
+V208,0,No births
+V209,Variable Label,Births in past year
+V209,0,No births
+V210,Variable Label,Births in month of interview
+V211,Variable Label,Date of first birth (CMC)
+V212,Variable Label,Age of respondent at 1st birth
+V213,Variable Label,Currently pregnant
+V213,0,No or unsure
+V213,1,Yes
+V214,Variable Label,Duration of current pregnancy
+V215,Variable Label,Time since last menstrual period
+V215,100,Day of interview
+V215,101,Days: 1
+V215,199,Days: number missing
+V215,201,Weeks: 1
+V215,299,Weeks: number missing
+V215,301,Months: 1
+V215,399,Months: number missing
+V215,401,Years: 1
+V215,499,Years: number missing
+V215,994,In menopause/had hysterectomy
+V215,995,Before last birth
+V215,996,Never menstruated
+V215,997,Inconsistent
+V215,998,Don't know
+V216,Variable Label,Menstruated in last six weeks
+V216,0,No
+V216,1,Yes
+V217,Variable Label,Knowledge of ovulatory cycle
+V217,1,During her period
+V217,2,After period ended
+V217,3,Middle of the cycle
+V217,4,Before period begins
+V217,5,At any time
+V217,6,Other
+V217,8,Don't know
+V218,Variable Label,Number of living children
+V219,Variable Label,Living children + current pregnancy
+V220,Variable Label,Living children + current pregnancy (grouped)
+V220,6,6+
+V221,Variable Label,Marriage to first birth interval (months)
+V221,996,Negative interval
+V222,Variable Label,Last birth to interview (months)
+V223,Variable Label,Completeness of current pregnancy information
+V223,7,Month - exact date
+V223,8,None - date placed
+V224,Variable Label,Entries in birth history
+V225,Variable Label,Current pregnancy wanted
+V225,1,Then
+V225,2,Later
+V225,3,Not at all
+V226,Variable Label,Time since last period (comp) (months)
+V226,994,In menopause
+V226,995,Before last birth
+V226,996,Never menstruated
+V226,997,Inconsistent
+V226,998,Don't know
+V227,Variable Label,Flag for last period
+V227,0,No flag
+V227,1,N > interval since birth
+V227,2,N + amen. > interval
+V227,3,"N, but period not returned"
+V227,4,"95, but no birth"
+V227,5,"95, but period returned"
+V227,6,"96, but period returned"
+V227,7,"N, last period during pregnancy"
+V227,8,"96, had children"
+V227,9,"N, period before last birth"
+V228,Variable Label,Ever had a terminated pregnancy
+V228,0,No
+V228,1,Yes
+V229,Variable Label,Month pregnancy ended
+V229,97,Inconsistent
+V229,98,Don't know
+V230,Variable Label,Year pregnancy ended
+V230,9997,Inconsistent
+V230,9998,Don't know
+V231,Variable Label,CMC pregnancy ended
+V231,9997,Inconsistent
+V231,9998,Don't know
+V232,Variable Label,Completeness of last termination information
+V232,1,Month and year
+V232,2,From calendar
+V232,5,Year
+V232,7,Month
+V232,8,None
+V233,Variable Label,Months when pregnancy ended
+V233,97,Inconsistent
+V233,98,Don't know
+V234,Variable Label,Other such pregnancies
+V234,0,No
+V234,1,Yes
+V235,Variable Label,Index last child prior to maternity-helath (calendar)
+V235,0,No prior child
+V237,Variable Label,Birth between last and interview
+V237,0,No
+V237,1,Yes
+V238,Variable Label,Births in last three years
+V239,Variable Label,Pregnancies terminated before calendar beginning
+V239,0,No
+V239,1,Yes
+V240,Variable Label,Month of last termination prior to calendar
+V240,97,Inconsistent
+V240,98,Don't know
+V241,Variable Label,Year of last termination prior to calendar
+V241,9997,Inconsistent
+V241,9998,Don't know
+V242,Variable Label,CMC termination ended prior to calendar
+V242,9997,Inconsistent
+V242,9998,Don't know
+V243,Variable Label,Completeness of last termination date prior to calendar
+V243,1,Month and year
+V243,2,From calendar
+V243,5,Year
+V243,7,Month
+V243,8,None
+V310,Variable Label,NA - Living children at first use
+V311,Variable Label,NA - Children at first use (grouped)
+V311,4,4+
+V311,5,Never used
+V312,Variable Label,Current contraceptive method
+V312,0,Not using
+V312,1,Pill
+V312,2,IUD
+V312,3,Injections
+V312,4,Diaphragm
+V312,5,Condom
+V312,6,Female sterilization
+V312,7,Male sterilization
+V312,8,Periodic abstinence
+V312,9,Withdrawal
+V312,10,Other
+V312,11,Implants/Norplant
+V312,12,Abstinence
+V312,13,Lactational amenorrhea (LAM)
+V312,14,Female condom
+V312,15,Foam or jelly
+V312,17,Other modern method
+V312,18,Collier (CS)
+V312,19,Specific method 2
+V312,20,Specific method 3
+V313,Variable Label,Current use by method type
+V313,0,No method
+V313,1,Folkloric method
+V313,2,Traditional method
+V313,3,Modern method
+V315,Variable Label,Month of start of use of method
+V316,Variable Label,Year of start of use of method
+V317,Variable Label,Date of start of use of method (CMC)
+V318,Variable Label,Completeness of information
+V318,1,Month and year - information complete
+V318,5,"Year - month imputed, age calculated"
+V318,7,Month - date placed
+V318,8,None - date placed
+V318,9,From calendar
+V319,Variable Label,Years since sterilization
+V319,1,<2
+V319,2,2-3
+V319,3,4-5
+V319,4,6-7
+V319,5,8-9
+V319,6,10+
+V320,Variable Label,Age at sterilization
+V320,1,<25
+V320,2,25-29
+V320,3,30-34
+V320,4,35-39
+V320,5,40-44
+V320,6,45-49
+V321,Variable Label,Marital duration at sterilization
+V321,0,"Single, before marriage"
+V321,1,0-4
+V321,2,5-9
+V321,3,10-14
+V321,4,15-19
+V321,5,20-24
+V321,6,25+
+V322,Variable Label,Parity at sterilization
+V322,5,5+
+V323,Variable Label,Brand of pill used
+V323,1,Planyl
+V323,2,Planor
+V323,3,Ovrette
+V323,4,Lo femenal
+V323,5,Minidril
+V323,6,Miniphase
+V323,7,Stediril
+V323,8,Microval
+V323,9,Adepal
+V323,10,Microgynon
+V323,11,Néogynon
+V323,12,Diane 35
+V323,13,Trinordiol
+V323,14,Securil
+V323,15,Lusiaf
+V323,16,Microlut
+V323,96,Other
+V323,98,Don't know
+V323A,Variable Label,Brand of condom used
+V323A,1,Protec
+V323A,2,Fagarou
+V323A,3,Visa
+V323A,4,Manix
+V323A,5,Presa
+V323A,6,Kama Sutra
+V323A,7,Protex
+V323A,8,Innotex
+V323A,9,Casanova
+V323A,10,Intimy
+V323A,11,Contex
+V323A,12,Star
+V323A,13,Trojam
+V323A,96,Other
+V323A,98,Don't know
+V325A,Variable Label,NA - Cost of current method (in CURRENCY)
+V325A,9999995,Free
+V325A,9999998,Don't know
+V326,Variable Label,Last source for current users
+V326,10,PUBLIC SECTOR
+V326,11,Government hospital
+V326,12,Government health center
+V326,13,government health post
+V326,14,FP centre
+V326,15,Rural maternity
+V326,16,Health home (Case de santé)
+V326,17,Community pharmacy
+V326,18,Outreach strategy/mobile team
+V326,19,Other public
+V326,20,PRIVATE SECTOR
+V326,21,Private clinic
+V326,22,Pharmacy
+V326,23,Private doctor
+V326,24,Religious dispensary
+V326,26,Other private
+V326,30,OTHER SOURCE
+V326,31,Shop
+V326,32,Church
+V326,33,Relatives/friends
+V326,34,bar
+V326,96,Other
+V326,98,Don't know
+V327,Variable Label,Last source for users by type
+V327,1,Government clinic/pharmacy
+V327,2,Government home/community delivery
+V327,3,NGO
+V327,4,Private clinic/delivery
+V327,5,Pharmacy
+V327,6,"Shop, church, friend"
+V327,7,Other
+V327,8,Don't know
+V337,Variable Label,Months of use of current method
+V337,95,All calendar {A core}
+V337,96,96+ {B core}
+V337,997,Inconsistent
+V337,998,Don't know
+V359,Variable Label,Last method discontinued in last 5 years
+V359,1,Pill
+V359,2,IUD
+V359,3,Injections
+V359,4,Diaphragm
+V359,5,Condom
+V359,6,Female sterilization
+V359,7,Male sterilization
+V359,8,Periodic abstinence
+V359,9,Withdrawal
+V359,10,Other
+V359,11,Norplant
+V359,12,Abstinence
+V359,13,Lactational amenorrhea
+V359,14,Female condom
+V359,15,Foam or jelly
+V359,16,Other modern method
+V359,17,Specific method 1
+V359,18,Specific method 2
+V359,19,Specific method 3
+V359,20,Specific method 4
+V360,Variable Label,Reason of last discontinuation
+V360,1,Became pregnant
+V360,2,Wanted to become pregnant
+V360,3,Husband disapproved
+V360,4,Side effects
+V360,5,Health concerns
+V360,6,"Access, availability"
+V360,7,Wanted more effective method
+V360,8,Inconvenient to use
+V360,9,"Infrequent sex, husband away"
+V360,10,Cost
+V360,11,Fatalistic
+V360,12,"Difficult pregnancy, menopause"
+V360,13,Marital dissolution
+V360,14,Other
+V360,98,Don't know
+V361,Variable Label,Pattern of use
+V361,1,Currently using
+V361,2,Used since last birth
+V361,3,Used before last birth
+V361,4,Never used
+V362,Variable Label,Intention to use
+V362,1,In next 12 months
+V362,2,Use later
+V362,3,Unsure about timing
+V362,4,Unsure about use
+V362,5,Does not intend
+V362,6,Never had sex
+V363,Variable Label,NA - Preferred future method
+V363,1,Pill
+V363,2,IUD
+V363,3,Injections
+V363,4,Diaphragm
+V363,5,Condom
+V363,6,Female sterilization
+V363,7,Male sterilization
+V363,8,Periodic abstinence
+V363,9,Withdrawal
+V363,10,Other
+V363,11,Norplant
+V363,12,Abstinence
+V363,13,Lactational amenorrhea
+V363,14,Female condom
+V363,15,Foam or jelly
+V363,17,Specific method 1
+V363,18,Specific method 2
+V363,19,Specific method 3
+V363,20,Specific method 4
+V363,98,Don't know
+V364,Variable Label,Contraceptive use and intention
+V364,1,Using modern method
+V364,2,Using traditional method
+V364,3,Non-user - intends to use later
+V364,4,Does not intend to use
+V364,5,Never had sex
+V367,Variable Label,Wanted last child
+V367,1,Wanted then
+V367,2,Wanted later
+V367,3,Wanted no more
+V372,Variable Label,NA - Shown pill package
+V372,0,Package not seen
+V372,1,Package seen
+V372A,Variable Label,NA - Shown condom package
+V372A,0,Package not seen
+V372A,1,Package seen
+V375A,Variable Label,NA - Main reason not using a method
+V375A,11,Not married
+V375A,20,FERTILITY-RELATED
+V375A,21,Not having sex
+V375A,22,Infrequent sex
+V375A,23,"Menopausal, hysterectomy"
+V375A,24,"Subfecund, infecund"
+V375A,25,"Postpartum, breastfeeding"
+V375A,26,Wants more children
+V375A,27,Pregnant
+V375A,30,OPPOSITION TO USE
+V375A,31,Respondent opposed
+V375A,32,Husband opposed
+V375A,33,Others opposed
+V375A,34,Religious prohibition
+V375A,40,LACK OF KNOWLEDGE
+V375A,41,Knows no method
+V375A,42,Knows no source
+V375A,50,METHOD-RELATED
+V375A,51,Health concerns
+V375A,52,Fears side effects
+V375A,53,Lack of access
+V375A,54,Cost too much
+V375A,55,Inconvenient to use
+V375A,56,Interferes with body
+V375A,96,Other
+V375A,98,Don't know
+V376,Variable Label,NA - Main reason not to use a method
+V376,11,Not married
+V376,20,FERTILITY-RELATED
+V376,22,Infrequent sex
+V376,23,"Menopausal, hysterectomy"
+V376,24,"Subfecund, infecund"
+V376,26,Wants more children
+V376,30,OPPOSITION TO USE
+V376,31,Respondent opposed
+V376,32,Husband opposed
+V376,33,Others opposed
+V376,34,Religious prohibition
+V376,40,LACK OF KNOWLEDGE
+V376,41,Knows no method
+V376,42,Knows no source
+V376,50,METHOD-RELATED
+V376,51,Health concerns
+V376,52,Fears side effects
+V376,53,Lack of access
+V376,54,Cost too much
+V376,55,Inconvenient to use
+V376,56,Interferes with body
+V376,96,Other
+V376,98,Don't know
+V376A,Variable Label,NA - Would ever use method if married
+V376A,0,No
+V376A,1,Yes
+V376A,8,Don't know
+V379,Variable Label,NA - Source known for any method
+V379,10,PUBLIC SECTOR
+V379,11,Government hospital
+V379,12,Government health center
+V379,13,government health post
+V379,14,FP centre
+V379,15,Rural maternity
+V379,16,Health home (Case de santé)
+V379,17,Community pharmacy
+V379,18,Outreach strategy/mobile team
+V379,19,Other public
+V379,20,PRIVATE SECTOR
+V379,21,Private clinic
+V379,22,Pharmacy
+V379,23,Private doctor
+V379,24,Religious dispensary
+V379,26,Other private
+V379,30,OTHER SOURCE
+V379,31,Shop
+V379,32,Church
+V379,33,Relatives/friends
+V379,34,bar
+V379,96,Other
+V379,98,Don't know
+V380,Variable Label,NA - Source known for any method
+V380,1,Government clinic/pharmacy
+V380,2,Government home/community delivery
+V380,3,NGO
+V380,4,Private clinic/delivery
+V380,5,Pharmacy
+V380,6,"Shop, church, friend"
+V380,7,Other
+V380,8,Don't know
+V384A,Variable Label,Heard family planning on radio last few months
+V384A,0,No
+V384A,1,Yes
+V384B,Variable Label,Heard family planning on TV last few months
+V384B,0,No
+V384B,1,Yes
+V384C,Variable Label,Heard family planning in newspaper last few months
+V384C,0,No
+V384C,1,Yes
+V393,Variable Label,Visited by family planning worker last 12 months
+V393,0,No
+V393,1,Yes
+V394,Variable Label,Visited health facility last 12 months
+V394,0,No
+V394,1,Yes
+V395,Variable Label,"At health facility, told of family planning"
+V395,0,No
+V395,1,Yes
+V3A00A,Variable Label,Source of family planning for non-users: government hospital
+V3A00A,0,No
+V3A00A,1,Yes
+V3A00B,Variable Label,Source of family planning for non-users: government health center
+V3A00B,0,No
+V3A00B,1,Yes
+V3A00C,Variable Label,Source of family planning for non-users: government health post
+V3A00C,0,No
+V3A00C,1,Yes
+V3A00D,Variable Label,Source of family planning for non-users: government FP center
+V3A00D,0,No
+V3A00D,1,Yes
+V3A00E,Variable Label,Source of family planning for non-users: government rural maternity
+V3A00E,0,No
+V3A00E,1,Yes
+V3A00F,Variable Label,Source of family planning for non-users: government health home (Case de santé)
+V3A00F,0,No
+V3A00F,1,Yes
+V3A00G,Variable Label,Source of family planning for non-users: community pharmacy
+V3A00G,0,No
+V3A00G,1,Yes
+V3A00H,Variable Label,Source of family planning for non-users: outreath/mobile team
+V3A00H,0,No
+V3A00H,1,Yes
+V3A00I,Variable Label,Source of family planning for non-users: other public sector
+V3A00I,0,No
+V3A00I,1,Yes
+V3A00J,Variable Label,Source of family planning for non-users: private hospital/clinic
+V3A00J,0,No
+V3A00J,1,Yes
+V3A00K,Variable Label,Source of family planning for non-users: pharmacy
+V3A00K,0,No
+V3A00K,1,Yes
+V3A00L,Variable Label,Source of family planning for non-users: private doctor
+V3A00L,0,No
+V3A00L,1,Yes
+V3A00M,Variable Label,Source of family planning for non-users: religious dispensary
+V3A00M,0,No
+V3A00M,1,Yes
+V3A00N,Variable Label,NA - Source of family planning for non-users: CS private sector
+V3A00N,0,No
+V3A00N,1,Yes
+V3A00O,Variable Label,NA - Source of family planning for non-users: CS private sector
+V3A00O,0,No
+V3A00O,1,Yes
+V3A00P,Variable Label,NA - Source of family planning for non-users: CS private sector
+V3A00P,0,No
+V3A00P,1,Yes
+V3A00Q,Variable Label,NA - Source of family planning for non-users: CS private sector
+V3A00Q,0,No
+V3A00Q,1,Yes
+V3A00R,Variable Label,Source of family planning for non-users: other private sector
+V3A00R,0,No
+V3A00R,1,Yes
+V3A00S,Variable Label,Source of family planning for non-users: shop
+V3A00S,0,No
+V3A00S,1,Yes
+V3A00T,Variable Label,Source of family planning for non-users: church
+V3A00T,0,No
+V3A00T,1,Yes
+V3A00U,Variable Label,Source of family planning for non-users: relatives/friends
+V3A00U,0,No
+V3A00U,1,Yes
+V3A00V,Variable Label,Source of family planning for non-users: Bar (CS)
+V3A00V,0,No
+V3A00V,1,Yes
+V3A00W,Variable Label,NA - Source of family planning for non-users: CS other
+V3A00W,0,No
+V3A00W,1,Yes
+V3A00X,Variable Label,Source of family planning for non-users: other
+V3A00X,0,No
+V3A00X,1,Yes
+V3A00Y,Variable Label,Source of family planning for non-users: no source
+V3A00Y,0,No: knows a source
+V3A00Y,1,Yes: knows no source
+V3A00Z,Variable Label,Source of family planning for non-users: any source
+V3A00Z,0,No
+V3A00Z,1,Yes
+V3A01,Variable Label,NA - Told sterilization would mean no more children
+V3A01,0,No
+V3A01,1,Yes
+V3A01,8,Don't know
+V3A02,Variable Label,Told about side effects
+V3A02,0,No
+V3A02,1,Yes
+V3A03,Variable Label,Told about side effects by health or family planning worker
+V3A03,0,No
+V3A03,1,Yes
+V3A04,Variable Label,Told how to deal with side effects
+V3A04,0,No
+V3A04,1,Yes
+V3A05,Variable Label,Told about other family planning methods
+V3A05,0,No
+V3A05,1,Yes
+V3A06,Variable Label,Told about other family planning methods by health or family planning worker
+V3A06,0,No
+V3A06,1,Yes
+V3A07,Variable Label,First source for current method
+V3A07,10,PUBLIC SECTOR
+V3A07,11,Government hospital
+V3A07,12,Government health center
+V3A07,13,government health post
+V3A07,14,FP centre
+V3A07,15,Rural maternity
+V3A07,16,Health home (Case de santé)
+V3A07,17,Community pharmacy
+V3A07,18,Outreach/mobile team
+V3A07,19,Other public
+V3A07,20,PRIVATE SECTOR
+V3A07,21,Private clinic
+V3A07,22,Pharmacy
+V3A07,23,Private doctor
+V3A07,24,Religious dispensary
+V3A07,26,Other private
+V3A07,30,OTHER SOURCE
+V3A07,31,Shop
+V3A07,32,Church
+V3A07,33,Relatives/friends
+V3A07,34,bar
+V3A07,96,Other
+V3A07,98,Don't know
+V3A08A,Variable Label,Reason not using: not married
+V3A08A,0,No
+V3A08A,1,Yes
+V3A08AA,Variable Label,NA - Reason not using: CS
+V3A08AA,0,No
+V3A08AA,1,Yes
+V3A08AB,Variable Label,NA - Reason not using: CS
+V3A08AB,0,No
+V3A08AB,1,Yes
+V3A08AC,Variable Label,NA - Reason not using: CS
+V3A08AC,0,No
+V3A08AC,1,Yes
+V3A08AD,Variable Label,NA - Reason not using: CS
+V3A08AD,0,No
+V3A08AD,1,Yes
+V3A08B,Variable Label,Reason not using: not having sex
+V3A08B,0,No
+V3A08B,1,Yes
+V3A08C,Variable Label,Reason not using: infrequent sex
+V3A08C,0,No
+V3A08C,1,Yes
+V3A08D,Variable Label,Reason not using: menopausal/hysterectomy
+V3A08D,0,No
+V3A08D,1,Yes
+V3A08E,Variable Label,Reason not using: subfecund/infecund
+V3A08E,0,No
+V3A08E,1,Yes
+V3A08F,Variable Label,Reason not using: postpartum amenorrheic
+V3A08F,0,No
+V3A08F,1,Yes
+V3A08G,Variable Label,Reason not using: breastfeeding
+V3A08G,0,No
+V3A08G,1,Yes
+V3A08H,Variable Label,Reason not using: fatalistic
+V3A08H,0,No
+V3A08H,1,Yes
+V3A08I,Variable Label,Reason not using: respondent opposed
+V3A08I,0,No
+V3A08I,1,Yes
+V3A08J,Variable Label,Reason not using: husband/partner opposed
+V3A08J,0,No
+V3A08J,1,Yes
+V3A08K,Variable Label,Reason not using: others opposed
+V3A08K,0,No
+V3A08K,1,Yes
+V3A08L,Variable Label,Reason not using: religious prohibition
+V3A08L,0,No
+V3A08L,1,Yes
+V3A08M,Variable Label,Reason not using: knows no method
+V3A08M,0,No
+V3A08M,1,Yes
+V3A08N,Variable Label,Reason not using: knows no source
+V3A08N,0,No
+V3A08N,1,Yes
+V3A08O,Variable Label,NA - Reason not using: health concerns
+V3A08O,0,No
+V3A08O,1,Yes
+V3A08P,Variable Label,Reason not using: fear of side effects/health concerns
+V3A08P,0,No
+V3A08P,1,Yes
+V3A08Q,Variable Label,Reason not using: lack of access/too far
+V3A08Q,0,No
+V3A08Q,1,Yes
+V3A08R,Variable Label,Reason not using: costs too much
+V3A08R,0,No
+V3A08R,1,Yes
+V3A08S,Variable Label,Reason not using: inconvenient to use
+V3A08S,0,No
+V3A08S,1,Yes
+V3A08T,Variable Label,Reason not using: interferes with body’s processes
+V3A08T,0,No
+V3A08T,1,Yes
+V3A08U,Variable Label,Reason not using: preferred method not available
+V3A08U,0,No
+V3A08U,1,Yes
+V3A08V,Variable Label,Reason not using: no method available
+V3A08V,0,No
+V3A08V,1,Yes
+V3A08W,Variable Label,NA - Reason not using: CS
+V3A08W,0,No
+V3A08W,1,Yes
+V3A08X,Variable Label,Reason not using: other
+V3A08X,0,No
+V3A08X,1,Yes
+V3A08Z,Variable Label,Reason not using: don't know
+V3A08Z,0,No
+V3A08Z,1,Yes: don't know
+V3A09A,Variable Label,NA - How many pill cycles did get last time
+V3A09A,998,Don't know
+V3A09B,Variable Label,NA - How many condoms did get last time
+V3A09B,998,Don't know
+V401,Variable Label,Last birth a caesarean section
+V401,0,No
+V401,1,Yes
+V404,Variable Label,Currently breastfeeding
+V404,0,No
+V404,1,Yes
+V405,Variable Label,Currently amenorrheic
+V405,0,No
+V405,1,Yes
+V406,Variable Label,Currently abstaining
+V406,0,No
+V406,1,Yes
+V407,Variable Label,NA - Number of times breastfed during night
+V407,96,On demand
+V408,Variable Label,NA - Number of times breastfed during day
+V408,96,On demand
+V409,Variable Label,Gave child plain water
+V409,0,No
+V409,1,Yes
+V409,8,Don't know
+V409A,Variable Label,NA - Gave child sugar water
+V409A,0,No
+V409A,1,Yes
+V409A,8,Don't know
+V410,Variable Label,Gave child juice
+V410,0,No
+V410,1,Yes
+V410,8,Don't know
+V410A,Variable Label,NA - Gave child tea or coffee
+V410A,0,No
+V410A,1,Yes
+V410A,8,Don't know
+V411,Variable Label,"Gave child tinned, powdered or fresh milk"
+V411,0,No
+V411,1,Yes
+V411,8,Don't know
+V411A,Variable Label,Gave child baby formula
+V411A,0,No
+V411A,1,Yes
+V411A,8,Don't know
+V412,Variable Label,NA - Gave child fresh milk
+V412,0,No
+V412,1,Yes
+V412,8,Don't know
+V412A,Variable Label,"Gave child fortified baby food (cerelac, etc)"
+V412A,0,No
+V412A,1,Yes
+V412A,8,Don't know
+V412B,Variable Label,NA - Gave child other porridge/gruel
+V412B,0,No
+V412B,1,Yes
+V412B,8,Don't know
+V412C,Variable Label,Gave child soup/clear broth
+V412C,0,No
+V412C,1,Yes
+V412C,8,Don't know
+V413,Variable Label,Gave child other liquid
+V413,0,No
+V413,1,Yes
+V413,8,Don't know
+V413A,Variable Label,NA - Gave child CS liquid
+V413A,0,No
+V413A,1,Yes
+V413A,8,Don't know
+V413B,Variable Label,NA - Gave child CS liquid
+V413B,0,No
+V413B,1,Yes
+V413B,8,Don't know
+V413C,Variable Label,NA - Gave child CS liquid
+V413C,0,No
+V413C,1,Yes
+V413C,8,Don't know
+V413D,Variable Label,NA - Gave child CS liquid
+V413D,0,No
+V413D,1,Yes
+V413D,8,Don't know
+V414A,Variable Label,NA - Gave child CS foods
+V414A,0,No
+V414A,1,Yes
+V414A,8,Don't know
+V414B,Variable Label,NA - Gave child CS foods
+V414B,0,No
+V414B,1,Yes
+V414B,8,Don't know
+V414C,Variable Label,NA - Gave child CS foods
+V414C,0,No
+V414C,1,Yes
+V414C,8,Don't know
+V414D,Variable Label,NA - Gave child CS foods
+V414D,0,No
+V414D,1,Yes
+V414D,8,Don't know
+V414E,Variable Label,"Gave child bread, noodles, other made from grains"
+V414E,0,No
+V414E,1,Yes
+V414E,8,Don't know
+V414F,Variable Label,"Gave child potatoes, cassava, or other tubers"
+V414F,0,No
+V414F,1,Yes
+V414F,8,Don't know
+V414G,Variable Label,Gave child eggs
+V414G,0,No
+V414G,1,Yes
+V414G,8,Don't know
+V414H,Variable Label,"Gave child meat (beef, pork, lamb, chicken, etc)"
+V414H,0,No
+V414H,1,Yes
+V414H,8,Don't know
+V414I,Variable Label,"Gave child pumpkin, carrots, squash (yellow or orange inside)"
+V414I,0,No
+V414I,1,Yes
+V414I,8,Don't know
+V414J,Variable Label,Gave child any dark green leafy vegetables
+V414J,0,No
+V414J,1,Yes
+V414J,8,Don't know
+V414K,Variable Label,"Gave child mangoes, papayas, other vitamin A fruits"
+V414K,0,No
+V414K,1,Yes
+V414K,8,Don't know
+V414L,Variable Label,Gave child any other fruits
+V414L,0,No
+V414L,1,Yes
+V414L,8,Don't know
+V414M,Variable Label,"Gave child liver, heart, other organs"
+V414M,0,No
+V414M,1,Yes
+V414M,8,Don't know
+V414N,Variable Label,Gave child fish or shellfish
+V414N,0,No
+V414N,1,Yes
+V414N,8,Don't know
+V414O,Variable Label,"Gave child food made from beans, peas, lentils, nuts"
+V414O,0,No
+V414O,1,Yes
+V414O,8,Don't know
+V414P,Variable Label,"Gave child cheese, yogurt, other milk products"
+V414P,0,No
+V414P,1,Yes
+V414P,8,Don't know
+V414Q,Variable Label,"NA - Gave child oil, fats, butter, products made of them"
+V414Q,0,No
+V414Q,1,Yes
+V414Q,8,Don't know
+V414R,Variable Label,"NA - Gave child chocolates, sweets, candies, pastries, etc"
+V414R,0,No
+V414R,1,Yes
+V414R,8,Don't know
+V414S,Variable Label,Gave child other solid-semisolid food
+V414S,0,No
+V414S,1,Yes
+V414S,8,Don't know
+V414T,Variable Label,NA - Gave child CS foods
+V414T,0,No
+V414T,1,Yes
+V414T,8,Don't know
+V414U,Variable Label,NA - Gave child CS foods
+V414U,0,No
+V414U,1,Yes
+V414U,8,Don't know
+V414V,Variable Label,Gave child yogurt
+V414V,0,No
+V414V,1,Yes
+V414V,8,Don't know
+V414W,Variable Label,NA - Gave child CS foods
+V414W,0,No
+V414W,1,Yes
+V414W,8,Don't know
+V415,Variable Label,Drank from bottle with nipple yesterday/last night
+V415,0,No
+V415,1,Yes
+V415,8,Don't know
+V416,Variable Label,Heard of oral rehydration
+V416,0,Never heard of
+V416,1,Used ORS
+V416,2,Heard of ORS
+V417,Variable Label,Entries in maternity table
+V418,Variable Label,Entries in health table
+V419,Variable Label,Entries in height/weight table
+V420,Variable Label,NA - Measurer's code
+V421,Variable Label,NA - Assistant measurer's code
+V426,Variable Label,When child put to breast
+V426,0,Immediately
+V426,100,Within first hour
+V426,101,Hours: 1
+V426,199,Hours: number missing
+V426,201,Days: 1
+V426,299,Days: number missing
+V437,Variable Label,NA - Respondent's weight in kilograms (1 decimal)
+V437,9994,Not present
+V437,9995,Refused
+V437,9996,Other
+V438,Variable Label,NA - Respondent's height in centimeters (1 decimal)
+V438,9994,Not present
+V438,9995,Refused
+V438,9996,Other
+V439,Variable Label,Height/Age percentile
+V439,9998,Flagged cases
+V440,Variable Label,Height/Age standard deviation
+V440,9998,Flagged cases
+V441,Variable Label,Height/Age percent ref. median
+V441,99998,Flagged cases
+V442,Variable Label,Weight/Height percent ref. median (DHS)
+V442,99998,Flagged cases
+V443,Variable Label,Weight/Height percent ref. median (Fog)
+V443,99998,Flagged cases
+V444,Variable Label,Weight/Height percent ref. median (WHO)
+V444,99998,Flagged cases
+V444A,Variable Label,Weight/Height standard deviation (DHS)
+V444A,9998,Flagged cases
+V445,Variable Label,Body Mass Index
+V445,9998,Flagged cases
+V446,Variable Label,Rohrer's index
+V446,9998,Flagged cases
+V447,Variable Label,Result of measurement - height/weight
+V447,0,Measured
+V447,3,Not present
+V447,4,Refused
+V447,6,Other
+V447,7,No measurement found in household
+V447A,Variable Label,NA - Women's age in years (from household questionnaire)
+V452A,Variable Label,NA - Under age 18 (from household questionnaire)
+V452A,1,Under age 18
+V452A,2,Age 18 or older
+V452B,Variable Label,NA - Line number of parent/caretaker
+V452B,0,Not in household
+V452C,Variable Label,NA - Read consent statement - hemoglobin
+V452C,1,Granted
+V452C,2,Parent/other refused
+V452C,3,Respondent refused
+V453,Variable Label,NA - Hemoglobin level (g/dl - 1 decimal)
+V453,994,Not present
+V453,995,Refused
+V453,996,Other
+V454,Variable Label,NA - Currently pregnant (from household questionnaire)
+V454,0,No/don't know
+V454,1,Yes
+V455,Variable Label,Result of measurement - hemoglobin
+V455,0,Measured
+V455,3,Not present
+V455,4,Refused
+V455,6,Other
+V455,7,No measurement found in household
+V456,Variable Label,NA - Hemoglobin level adjusted for altitude and smoking (g/dl - 1 decimal)
+V457,Variable Label,NA - Anemia level
+V457,1,Severe
+V457,2,Moderate
+V457,3,Mild
+V457,4,Not anemic
+V458,Variable Label,NA - Agrees to referral - anemia
+V458,0,No
+V458,1,Yes
+V459,Variable Label,Have mosquito bed net for sleeping (from household questionnaire)
+V459,0,No
+V459,1,Yes
+V460,Variable Label,Children under 5 slept under mosquito bed net last night (household questionaire)
+V460,0,No
+V460,1,All children
+V460,2,Some children
+V460,3,No net in household
+V461,Variable Label,Respondent slept under mosquito bed net
+V461,0,No
+V461,1,Yes
+V462,Variable Label,NA - Washed hands before preparing last meal
+V462,0,No
+V462,1,Yes
+V462,2,Never prepared meal
+V463A,Variable Label,NA - Smokes cigarettes
+V463A,0,No
+V463A,1,Yes
+V463B,Variable Label,Smokes pipe
+V463B,0,No
+V463B,1,Yes
+V463C,Variable Label,Uses chewing tobacco
+V463C,0,No
+V463C,1,Yes
+V463D,Variable Label,Uses snuff
+V463D,0,No
+V463D,1,Yes
+V463E,Variable Label,NA - Smokes cigars
+V463E,0,No
+V463E,1,Yes
+V463F,Variable Label,NA - Smokes country specific
+V463F,0,No
+V463F,1,Yes
+V463G,Variable Label,NA - Smokes country specific
+V463G,0,No
+V463G,1,Yes
+V463X,Variable Label,Smokes other
+V463X,0,No
+V463X,1,Yes
+V463Z,Variable Label,Does not use tobacco
+V463Z,0,No
+V463Z,1,"Yes, smokes nothing"
+V464,Variable Label,NA - Number of cigarettes in last 24 hours
+V464,98,Don't know
+V465,Variable Label,Disposal of youngest child's stools when not using toilet
+V465,1,Used toilet/latrine
+V465,2,Put/rinsed in toilet/latrine
+V465,3,Put/rinsed into drain or ditch
+V465,4,Throw into garbage
+V465,5,Buried
+V465,6,Rinse away
+V465,7,Use disposable diapers
+V465,8,Use washable diapers
+V465,9,Left in the open/not disposed of
+V465,96,Other
+V466,Variable Label,"NA - When child is seriously ill, can decide whether medical treatment sought"
+V466,0,No
+V466,1,Yes
+V466,2,Depends
+V467A,Variable Label,NA - Getting medical help for self: know where to go
+V467A,0,No problem
+V467A,1,Big problem
+V467A,2,Not a big problem
+V467B,Variable Label,NA - Getting medical help for self: getting permission to go
+V467B,0,No problem
+V467B,1,Big problem
+V467B,2,Not a big problem
+V467C,Variable Label,NA - Getting medical help for self: getting money needed for treatment
+V467C,0,No problem
+V467C,1,Big problem
+V467C,2,Not a big problem
+V467D,Variable Label,NA - Getting medical help for self: distance to health facility
+V467D,0,No problem
+V467D,1,Big problem
+V467D,2,Not a big problem
+V467E,Variable Label,NA - Getting medical help for self: having to take transport
+V467E,0,No problem
+V467E,1,Big problem
+V467E,2,Not a big problem
+V467F,Variable Label,NA - Getting medical help for self: not wanting to go alone
+V467F,0,No problem
+V467F,1,Big problem
+V467F,2,Not a big problem
+V467G,Variable Label,NA - Getting medical help for self: concern no female health provider
+V467G,0,No problem
+V467G,1,Big problem
+V467G,2,Not a big problem
+V467H,Variable Label,NA - Getting medical help for self: concern no provider
+V467H,0,No problem
+V467H,1,Big problem
+V467H,2,Not a big problem
+V467I,Variable Label,NA - Getting medical help for self: concern no drugs available
+V467I,0,No problem
+V467I,1,Big problem
+V467I,2,Not a big problem
+V467J,Variable Label,NA - Getting medical help for self: CS
+V467J,0,No problem
+V467J,1,Big problem
+V467J,2,Not a big problem
+V467K,Variable Label,NA - Getting medical help for self: CS
+V467K,0,No problem
+V467K,1,Big problem
+V467K,2,Not a big problem
+V467L,Variable Label,NA - Getting medical help for self: CS
+V467L,0,No problem
+V467L,1,Big problem
+V467L,2,Not a big problem
+V467M,Variable Label,NA - Getting medical help for self: CS
+V467M,0,No problem
+V467M,1,Big problem
+V467M,2,Not a big problem
+V468,Variable Label,Record for Last Birth
+V468,0,See specific questions
+V468,1,Last birth only
+V468,2,All births in last 5 years
+V469E,Variable Label,Times gave child powdered/tinned/fresh milk
+V469E,0,No
+V469E,7,7+
+V469E,8,DK
+V469F,Variable Label,Times gave child infant formula
+V469F,0,No
+V469F,7,7+
+V469F,8,DK
+V469X,Variable Label,Times gave child yogurt
+V469X,0,No
+V469X,7,7+
+V469X,8,DK
+V471A,Variable Label,"NA - Mother had tinned, powdered or fresh milk"
+V471A,0,No
+V471A,1,Yes
+V471A,8,Don't know
+V471B,Variable Label,NA - Mother had tea or coffee
+V471B,0,No
+V471B,1,Yes
+V471B,8,Don't know
+V471C,Variable Label,NA - Mother had any other liquid
+V471C,0,No
+V471C,1,Yes
+V471C,8,Don't know
+V471D,Variable Label,NA - Mother had CS liquid
+V471D,0,No
+V471D,1,Yes
+V471D,8,Don't know
+V471E,Variable Label,NA - Mother had CS liquid
+V471E,0,No
+V471E,1,Yes
+V471E,8,Don't know
+V471F,Variable Label,NA - Mother had CS liquid
+V471F,0,No
+V471F,1,Yes
+V471F,8,Don't know
+V471G,Variable Label,NA - Mother had CS liquid
+V471G,0,No
+V471G,1,Yes
+V471G,8,Don't know
+V472A,Variable Label,NA - Mother had CS foods
+V472A,0,No
+V472A,1,Yes
+V472A,8,Don't know
+V472B,Variable Label,NA - Mother had CS foods
+V472B,0,No
+V472B,1,Yes
+V472B,8,Don't know
+V472C,Variable Label,NA - Mother had CS foods
+V472C,0,No
+V472C,1,Yes
+V472C,8,Don't know
+V472D,Variable Label,NA - Mother had CS foods
+V472D,0,No
+V472D,1,Yes
+V472D,8,Don't know
+V472E,Variable Label,"NA - Mother had bread, noodles, other made from grains"
+V472E,0,No
+V472E,1,Yes
+V472E,8,Don't know
+V472F,Variable Label,"NA - Mother had potatoes, cassava, or other tubers"
+V472F,0,No
+V472F,1,Yes
+V472F,8,Don't know
+V472G,Variable Label,NA - Mother had eggs
+V472G,0,No
+V472G,1,Yes
+V472G,8,Don't know
+V472H,Variable Label,"NA - Mother had meat (beef, pork, lamb, chicken, etc)"
+V472H,0,No
+V472H,1,Yes
+V472H,8,Don't know
+V472I,Variable Label,"NA - Mother had pumpkin, carrots, squash (yellow or orange inside)"
+V472I,0,No
+V472I,1,Yes
+V472I,8,Don't know
+V472J,Variable Label,NA - Mother had any dark green leafy vegetables
+V472J,0,No
+V472J,1,Yes
+V472J,8,Don't know
+V472K,Variable Label,"NA - Mother had mangoes, papayas, other vitamin A fruits"
+V472K,0,No
+V472K,1,Yes
+V472K,8,Don't know
+V472L,Variable Label,NA - Mother had any other fruits
+V472L,0,No
+V472L,1,Yes
+V472L,8,Don't know
+V472M,Variable Label,"NA - Mother had liver, heart, other organs"
+V472M,0,No
+V472M,1,Yes
+V472M,8,Don't know
+V472N,Variable Label,NA - Mother had fish or shellfish
+V472N,0,No
+V472N,1,Yes
+V472N,8,Don't know
+V472O,Variable Label,"NA - Mother had food made from beans, peas, lentils, nuts"
+V472O,0,No
+V472O,1,Yes
+V472O,8,Don't know
+V472P,Variable Label,"NA - Mother had cheese, yogurt, other milk products"
+V472P,0,No
+V472P,1,Yes
+V472P,8,Don't know
+V472Q,Variable Label,"NA - Mother had oil, fats, butter, products made of them"
+V472Q,0,No
+V472Q,1,Yes
+V472Q,8,Don't know
+V472R,Variable Label,"NA - Mother had chocolates, sweets, candies, pastries, etc"
+V472R,0,No
+V472R,1,Yes
+V472R,8,Don't know
+V472S,Variable Label,NA - Mother had other solid-semisolid food
+V472S,0,No
+V472S,1,Yes
+V472S,8,Don't know
+V472T,Variable Label,NA - Mother had CS foods
+V472T,0,No
+V472T,1,Yes
+V472T,8,Don't know
+V472U,Variable Label,NA - Mother had CS foods
+V472U,0,No
+V472U,1,Yes
+V472U,8,Don't know
+V473A,Variable Label,NA - Read consent statement - HIV
+V473A,1,Granted
+V473A,2,Parent/other refused
+V473A,3,Respondent refused
+V473B,Variable Label,NA - Result of measurement - HIV
+V473B,1,Blood taken
+V473B,2,Not present
+V473B,3,Refused
+V473B,4,Sample not tested/lost/damaged/insufficient
+V473B,6,Other
+V474,Variable Label,NA - Heard of tuberculosis or TB
+V474,0,No
+V474,1,Yes
+V474A,Variable Label,NA - Tuberculosis spread by: air when coughing or sneezing
+V474A,0,No
+V474A,1,Yes
+V474B,Variable Label,NA - Tuberculosis spread by: sharing utensils
+V474B,0,No
+V474B,1,Yes
+V474C,Variable Label,NA - Tuberculosis spread by: touching a person with TB
+V474C,0,No
+V474C,1,Yes
+V474D,Variable Label,NA - Tuberculosis spread by: food
+V474D,0,No
+V474D,1,Yes
+V474E,Variable Label,NA - Tuberculosis spread by: sexual contact
+V474E,0,No
+V474E,1,Yes
+V474F,Variable Label,NA - Tuberculosis spread by: mosquito bites
+V474F,0,No
+V474F,1,Yes
+V474G,Variable Label,NA - Tuberculosis spread by: CS
+V474G,0,No
+V474G,1,Yes
+V474H,Variable Label,NA - Tuberculosis spread by: CS
+V474H,0,No
+V474H,1,Yes
+V474I,Variable Label,NA - Tuberculosis spread by: CS
+V474I,0,No
+V474I,1,Yes
+V474J,Variable Label,NA - Tuberculosis spread by: CS
+V474J,0,No
+V474J,1,Yes
+V474X,Variable Label,NA - Tuberculosis spread by: other
+V474X,0,No
+V474X,1,Yes
+V474Z,Variable Label,NA - Tuberculosis spread by: don't know
+V474Z,0,No
+V474Z,1,Yes
+V475,Variable Label,NA - Tuberculosis can be cured
+V475,0,No
+V475,1,Yes
+V475,8,Don't know
+V476,Variable Label,NA - Keep secret when family member gets TB
+V476,0,No
+V476,1,"Yes, remain a secret"
+V476,8,Don't know/not sure/depends
+V477,Variable Label,NA - Number of injections in last 12 months
+V477,0,None
+V477,90,90+
+V477,98,Don't know
+V478,Variable Label,NA - Number of injections administered by a health worker
+V478,0,None
+V478,90,90+
+V478,98,Don't know
+V479,Variable Label,NA - Place of injection by health worker
+V479,10,PUBLIC SECTOR
+V479,11,Government hospital
+V479,12,Government health center
+V479,16,Other public sector
+V479,20,PRIVATE SECTOR
+V479,21,Private hospital/clinic/doctor
+V479,22,Dental clinic/office
+V479,23,Pharmacy
+V479,24,Office or home of nurse/health worker
+V479,26,Other private sector
+V479,30,OTHER NON-MEDICAL
+V479,31,Respondent's home
+V479,96,Other
+V480,Variable Label,"NA - Syringe and needle from new, unopened package"
+V480,0,No
+V480,1,Yes
+V480,8,Don't know
+V481,Variable Label,NA - Covered by health insurance
+V481,0,No
+V481,1,Yes
+V481A,Variable Label,Health insurance type: mutual/community organization
+V481A,0,No
+V481A,1,Yes
+V481B,Variable Label,Health insurance type: provided by employer
+V481B,0,No
+V481B,1,Yes
+V481C,Variable Label,Health insurance type: social security
+V481C,0,No
+V481C,1,Yes
+V481D,Variable Label,Health insurance type: private/commercially purchased
+V481D,0,No
+V481D,1,Yes
+V481E,Variable Label,Health insurance type: CS- budget item
+V481E,0,No
+V481E,1,Yes
+V481F,Variable Label,Health insurance type: CS- school health insurance
+V481F,0,No
+V481F,1,Yes
+V481G,Variable Label,NA - Health insurance type: CS
+V481G,0,No
+V481G,1,Yes
+V481H,Variable Label,NA - Health insurance type: CS
+V481H,0,No
+V481H,1,Yes
+V481X,Variable Label,Health insurance type: other
+V481X,0,No
+V481X,1,Yes
+V482A,Variable Label,NA - Arrange care of biological children under age 18
+V482A,0,No
+V482A,1,Yes
+V482A,8,Unsure
+V482B,Variable Label,NA - Primary caregiver of children under age 18
+V482B,0,No
+V482B,1,Yes
+V482C,Variable Label,NA - Arrange care of non-biological children < 18
+V482C,0,No
+V482C,1,Yes
+V482C,8,Unsure
+V501,Variable Label,Current marital status
+V501,0,Never in union
+V501,1,Married
+V501,2,Living with partner
+V501,3,Widowed
+V501,4,Divorced
+V501,5,No longer living together/separated
+V502,Variable Label,Currently/formerly/never in union
+V502,0,Never in union
+V502,1,Currently in union/living with a man
+V502,2,Formerly in union/living with a man
+V503,Variable Label,Number of unions
+V503,1,Once
+V503,2,More than once
+V504,Variable Label,Currently residing with husband/partner
+V504,1,Living with her
+V504,2,Staying elsewhere
+V505,Variable Label,Number of other wives
+V505,0,No other wives
+V505,98,Don't know
+V506,Variable Label,Respondent's rank among wives
+V506,98,Don't know
+V507,Variable Label,Month of first cohabitation
+V508,Variable Label,Year of first cohabitation
+V509,Variable Label,Date of first cohabitation (CMC)
+V510,Variable Label,Completeness of date information in V509
+V510,1,Month and year - information complete
+V510,2,Month and age - year imputed
+V510,3,Year and age - month imputed
+V510,5,Year - age/month imputed
+V510,6,Age - year/month imputed
+V510,7,Month - age/year imputed
+V510,8,None - all imputed
+V511,Variable Label,Age at first cohabitation
+V512,Variable Label,Years since first cohabitaion
+V513,Variable Label,Cohabitation duration (grouped)
+V513,0,Never married
+V513,1,0-4
+V513,2,5-9
+V513,3,10-14
+V513,4,15-19
+V513,5,20-24
+V513,6,25-29
+V513,7,30+
+V525,Variable Label,Age at first sex
+V525,0,Not had sex
+V525,96,At first union
+V525,97,Inconsistent
+V525,98,Don't know
+V527,Variable Label,Time since last sex
+V527,100,<1 day ago
+V527,101,Days: 1
+V527,199,Days: number missing
+V527,201,Weeks: 1
+V527,299,Weeks: number missing
+V527,301,Months: 1
+V527,399,Months: number missing
+V527,401,Years: 1
+V527,499,Years: number missing
+V527,995,Within last 4 weeks
+V527,996,Before last birth
+V527,997,Inconsistent
+V527,998,Don't know
+V528,Variable Label,Time since last sex (in days)
+V528,31,31+ days
+V528,95,Within last 4 weeks
+V528,96,Before last birth
+V528,97,Inconsistent
+V528,98,Don't know
+V529,Variable Label,Time since last sex (in months)
+V529,995,Within last 4 weeks
+V529,996,Before last birth
+V529,997,Inconsistent
+V529,998,Don't know
+V530,Variable Label,Flag for V529
+V530,0,No flag
+V530,1,N > interval since birth
+V530,2,N + abstinence > interval
+V530,3,"N, but sex not res."
+V530,4,"96, but no birth"
+V530,5,"96, but currently pregnant"
+V530,6,"96, but resumed sex"
+V530,7,"N, last sex before pregnancy"
+V530,8,"N, inconsistent 4 weeks"
+V530,9,"N, sex before last birth"
+V531,Variable Label,Age at first sex (imputed)
+V531,0,Not had sex
+V531,97,Inconsistent
+V531,98,Don't know
+V532,Variable Label,Flag for V531
+V532,0,No flag
+V532,1,After interview
+V532,2,After conception >= 1 year
+V532,3,After conception < 1 year
+V532,4,"At marriage, but never married"
+V532,5,"At marriage, but after conception"
+V532,6,After marriage
+V535,Variable Label,Ever been married or in union
+V535,0,No
+V535,1,Formerly married
+V535,2,Lived with a man
+V536,Variable Label,Recent sexual activity
+V536,0,Never had sex
+V536,1,Active in last 4 weeks
+V536,2,Not active in last 4 weeks - postpartum abstinence
+V536,3,Not active in last 4 weeks - not postpartum abstinence
+V537,Variable Label,Months of abstinence
+V537,60,60+
+V537,96,Before last birth
+V537,97,Inconsistent
+V537,98,Don't know
+V538,Variable Label,NA - How previous marriage or union ended
+V538,1,Death/widowhood
+V538,2,Divorce
+V538,3,Separation
+V539,Variable Label,NA - Person who received most of late husband's property
+V539,1,Respondent
+V539,2,Other wife
+V539,3,Spouse's children
+V539,4,Spouse's family
+V539,6,Other
+V539,7,No property
+V540,Variable Label,NA - Respondent received any of late husband's assets or valuables
+V540,0,No
+V540,1,Yes
+V541,Variable Label,NA - Intends to wait until marriage to have sex
+V541,0,No
+V541,1,Yes
+V541,8,Don't know
+V602,Variable Label,Fertility preference
+V602,1,Have another
+V602,2,Undecided
+V602,3,No more
+V602,4,Sterilized (respondent or partner)
+V602,5,Declared infecund
+V602,6,Never had sex
+V603,Variable Label,Preferred waiting time for birth of a/another child
+V603,100,Wanted now
+V603,101,Months: 1
+V603,199,Months: number missing
+V603,201,Years: 1
+V603,299,Years: number missing
+V603,993,After marriage
+V603,994,"Soon, now"
+V603,996,"Other, non-numeric"
+V603,997,Inconsistent
+V603,998,Don't know
+V604,Variable Label,Preferred waiting time for birth of a/another child (grouped)
+V604,0,<12 months
+V604,1,1 year
+V604,2,2 years
+V604,3,3 years
+V604,4,4 years
+V604,5,5 years
+V604,6,6+ years
+V604,7,Non-numeric
+V604,8,Don't know
+V605,Variable Label,Desire for more children
+V605,1,Wants within 2 years
+V605,2,Wants after 2+ years
+V605,3,"Wants, unsure timing"
+V605,4,Undecided
+V605,5,Wants no more
+V605,6,Sterilized (respondent or partner)
+V605,7,Declared infecund
+V605,8,Never had sex
+V613,Variable Label,Ideal number of children
+V613,96,Non-numeric response
+V613,98,Don't know
+V614,Variable Label,Ideal number of children (grouped)
+V614,6,6+
+V614,7,Non-numeric response
+V616,Variable Label,Time for future birth
+V616,100,Wanted now
+V616,101,Months: 1
+V616,199,Months: number missing
+V616,201,Years: 1
+V616,299,Years: number missing
+V616,993,After marriage
+V616,994,Soon/now
+V616,995,Can't get pregnant
+V616,996,Other
+V616,998,Don't know
+V621,Variable Label,Husband's desire for children
+V621,1,Both want same
+V621,2,Husband wants more
+V621,3,Husband wants fewer
+V621,8,Don't know
+V623,Variable Label,Exposure
+V623,0,Fecund
+V623,1,Pregnant
+V623,2,Postpartum amenorrheic
+V623,3,"Infecund, menopausal"
+V624,Variable Label,Unmet need
+V624,0,Never had sex
+V624,1,Unmet need for spacing
+V624,2,Unmet need for limiting
+V624,3,Using for spacing
+V624,4,Using for limiting
+V624,5,Spacing failure
+V624,6,Limiting failure
+V624,7,No unmet need
+V624,8,Not married and no sex in last 30 days
+V624,9,"Infecund, menopausal"
+V625,Variable Label,Exposure (definition 2)
+V625,0,Fecund
+V625,1,Pregnant
+V625,2,Postpartum amenorrheic
+V625,3,"Infecund, menopausal"
+V625A,Variable Label,Exposure to need for contraception (definition 3)
+V625A,0,Fecund
+V625A,1,Pregnant
+V625A,2,Postpartum amenorrheic
+V625A,3,"Infecund, menopausal"
+V626,Variable Label,Unmet need (definition 2)
+V626,0,Never had sex
+V626,1,Unmet need for spacing
+V626,2,Unmet need for limiting
+V626,3,Using for spacing
+V626,4,Using for limiting
+V626,5,Spacing failure
+V626,6,Limiting failure
+V626,7,No unmet need
+V626,8,Not married and no sex in last 30 days
+V626,9,"Infecund, menopausal"
+V626A,Variable Label,Unmet need for contraception (definition 3)
+V626A,0,Never had sex
+V626A,1,Unmet need for spacing
+V626A,2,Unmet need for limiting
+V626A,3,Using for spacing
+V626A,4,Using for limiting
+V626A,7,No unmet need
+V626A,8,Not married and no sex in last 30 days
+V626A,9,"Infecund, menopausal"
+V627,Variable Label,Ideal number of boys
+V627,96,Other
+V627,98,Don't know
+V628,Variable Label,Ideal number of girls
+V628,96,Other
+V628,98,Don't know
+V629,Variable Label,Ideal number of either sex
+V629,96,Other
+V629,98,Don't know
+V631,Variable Label,NA - Problem if became pregnant
+V631,1,Big problem
+V631,2,Small problem
+V631,3,No problem
+V631,4,Says she can't get pregnant/not having sex
+V632,Variable Label,Decision maker for using contraception
+V632,1,Mainly respondent
+V632,2,"Mainly husband, partner"
+V632,3,Joint decision
+V632,6,Other
+V633A,Variable Label,NA - Reason for not having sex: husband has STI
+V633A,0,No
+V633A,1,Yes
+V633A,8,Don't know
+V633B,Variable Label,Reason for not having sex: husband has other women
+V633B,0,No
+V633B,1,Yes
+V633B,8,Don't know
+V633C,Variable Label,NA - Reason for not having sex: recent birth
+V633C,0,No
+V633C,1,Yes
+V633C,8,Don't know
+V633D,Variable Label,"NA - Reason for not having sex: tired, not in mood"
+V633D,0,No
+V633D,1,Yes
+V633D,8,Don't know
+V633E,Variable Label,NA - Reason for not having sex: CS
+V633E,0,No
+V633E,1,Yes
+V633E,8,Don't know
+V633F,Variable Label,NA - Reason for not having sex: CS
+V633F,0,No
+V633F,1,Yes
+V633F,8,Don't know
+V633G,Variable Label,NA - Reason for not having sex: CS
+V633G,0,No
+V633G,1,Yes
+V633G,8,Don't know
+V634,Variable Label,NA - Husband knows that respondent is using contraception
+V634,0,No
+V634,1,Yes
+V634,8,Don't know
+V701,Variable Label,Husband/partner's education level
+V701,0,No education
+V701,1,Primary
+V701,2,Secondary
+V701,3,Higher
+V701,8,Don't know
+V702,Variable Label,Husband/partner's highest year of education (at level in V701)
+V702,0,No years completed at level V702
+V702,98,Don't know
+V704,Variable Label,Husband/partner's occupation
+V704,0,Did not work
+V704,1,Professional/technical/managerial
+V704,2,Clerical
+V704,3,Sales
+V704,4,Agricultural - self employed
+V704,5,Agricultural - employee
+V704,6,Household and domestic
+V704,7,Services
+V704,8,Skilled manual
+V704,9,Unskilled manual
+V704,996,Other
+V704,998,Don't know
+V705,Variable Label,Husband/partner's occupation (grouped)
+V705,0,Did not work
+V705,1,Professional/technical/managerial
+V705,2,Clerical
+V705,3,Sales
+V705,4,Agricultural - self employed
+V705,5,Agricultural - employee
+V705,6,Household and domestic
+V705,7,Services
+V705,8,Skilled manual
+V705,9,Unskilled manual
+V705,96,Other
+V705,98,Don't know
+V714,Variable Label,Respondent currently working
+V714,0,No
+V714,1,Yes
+V714A,Variable Label,"Respondent has a job, but currently absent"
+V714A,0,No
+V714A,1,Yes
+V715,Variable Label,Husband/partner's total number of years of education
+V715,97,Inconsistent
+V715,98,Don't know
+V716,Variable Label,Respondent's occupation
+V716,0,Not working
+V716,1,Professional/technical/managerial
+V716,2,Clerical
+V716,3,Sales
+V716,4,Agricultural - self employed
+V716,5,Agricultural - employee
+V716,6,Household and domestic
+V716,7,Services
+V716,8,Skilled manual
+V716,9,Unskilled manual
+V716,996,Other
+V716,998,Don't know
+V717,Variable Label,Respondent's occupation (grouped)
+V717,0,Not working
+V717,1,Professional/technical/managerial
+V717,2,Clerical
+V717,3,Sales
+V717,4,Agricultural - self employed
+V717,5,Agricultural - employee
+V717,6,Household and domestic
+V717,7,Services
+V717,8,Skilled manual
+V717,9,Unskilled manual
+V717,96,Other
+V717,98,Don't know
+V719,Variable Label,"Respondent works for family, others, self"
+V719,1,For family member
+V719,2,For someone else
+V719,3,Self-employed
+V721,Variable Label,NA - Respondent works at home or away
+V721,1,At home
+V721,2,Away
+V729,Variable Label,Husband/partner's educational attainment
+V729,0,No education
+V729,1,Incomplete primary
+V729,2,Complete primary
+V729,3,Incomplete secondary
+V729,4,Complete secondary
+V729,5,Higher
+V729,8,Don't know
+V730,Variable Label,Husband/partner's age
+V730,96,96+
+V730,98,Don't know
+V731,Variable Label,Respondent worked in last 12 months
+V731,0,No
+V731,1,In the past year
+V731,2,Currently working
+V731,3,"Have a job, but on leave last 7 days"
+V732,Variable Label,Respondent employed all year/seasonal
+V732,1,All year
+V732,2,Seasonal
+V732,3,Occasional
+V739,Variable Label,Person who usually decides how to spend respondent's earnings
+V739,1,Respondent alone
+V739,2,Respondent and husband/partner
+V739,3,Respondent and other person
+V739,4,Husband/partner alone
+V739,5,Someone else
+V740,Variable Label,NA - Type of land where respondent works
+V740,0,Own land
+V740,1,Family land
+V740,2,Someone else's land
+V740,3,Rented land
+V740,8,Don't know
+V741,Variable Label,Type of earnings from respondent's work
+V741,0,Not paid
+V741,1,Cash only
+V741,2,Cash and in-kind
+V741,3,In-kind only
+V743A,Variable Label,Person who usually decides on respondent's health care
+V743A,1,Respondent alone
+V743A,2,Respondent and husband/partner
+V743A,3,Respondent and other person
+V743A,4,Husband/partner alone
+V743A,5,Someone else
+V743A,6,Other
+V743B,Variable Label,Person who usually decides on large household purchases
+V743B,1,Respondent alone
+V743B,2,Respondent and husband/partner
+V743B,3,Respondent and other person
+V743B,4,Husband/partner alone
+V743B,5,Someone else
+V743B,6,Other
+V743C,Variable Label,NA - Person who usually decides on household purchases for daily needs
+V743C,1,Respondent alone
+V743C,2,Respondent and husband/partner
+V743C,3,Respondent and other person
+V743C,4,Husband/partner alone
+V743C,5,Someone else
+V743C,6,Other
+V743D,Variable Label,Person who usually decides on visits to family or relatives
+V743D,1,Respondent alone
+V743D,2,Respondent and husband/partner
+V743D,3,Respondent and other person
+V743D,4,Husband/partner alone
+V743D,5,Someone else
+V743D,6,Other
+V743E,Variable Label,NA - Person who usually decides on food to be cooked each day
+V743E,1,Respondent alone
+V743E,2,Respondent and husband/partner
+V743E,3,Respondent and other person
+V743E,4,Husband/partner alone
+V743E,5,Someone else
+V743E,6,Other
+V743F,Variable Label,Person who usually decides what to do with money husband earns
+V743F,1,Respondent alone
+V743F,2,Respondent and husband/partner
+V743F,3,Respondent and other person
+V743F,4,Husband/partner alone
+V743F,5,Someone else
+V743F,6,Other
+V743F,7,Husband/partner has no earnings
+V744A,Variable Label,Beating justified if wife goes out without telling husband
+V744A,0,No
+V744A,1,Yes
+V744A,8,Don't know
+V744B,Variable Label,Beating justified if wife neglects the children
+V744B,0,No
+V744B,1,Yes
+V744B,8,Don't know
+V744C,Variable Label,Beating justified if wife argues with husband
+V744C,0,No
+V744C,1,Yes
+V744C,8,Don't know
+V744D,Variable Label,Beating justified if wife refuses to have sex with husband
+V744D,0,No
+V744D,1,Yes
+V744D,8,Don't know
+V744E,Variable Label,Beating justified if wife burns the food
+V744E,0,No
+V744E,1,Yes
+V744E,8,Don't know
+V745A,Variable Label,Owns a house alone or jointly
+V745A,0,Does not own
+V745A,1,Alone only
+V745A,2,Jointly only
+V745A,3,Both alone and jointly
+V745B,Variable Label,Owns land alone or jointly
+V745B,0,Does not own
+V745B,1,Alone only
+V745B,2,Jointly only
+V745B,3,Both alone and jointly
+V746,Variable Label,Respondent earns more than husband/partner
+V746,1,More than him
+V746,2,Less than him
+V746,3,About the same
+V746,4,Husband/partner doesn't bring in money
+V746,8,Don't know
