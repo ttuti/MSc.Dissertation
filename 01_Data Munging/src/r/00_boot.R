@@ -6,8 +6,9 @@ cat('The date today is', format(Sys.Date(), '%d %B %Y.'), '\n')
 cat('Reporting session started at ', format(Sys.time(), '%I:%M %p'), '\n\n', sep = '')
 
 # Set project path
-setwd("E:/SCHOOL/Dissertation/DHS Dataset/R_Codes")
 home.dir <- "E:/SCHOOL/Dissertation/DHS Dataset"
+setwd(paste0(home.dir,"/R_Codes"))
+
 main.folder<-file.path(home.dir, "R_Codes")
 m.project.path <- path.expand(file.path(home.dir,"R_Codes"))
 

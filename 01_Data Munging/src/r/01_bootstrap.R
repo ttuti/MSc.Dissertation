@@ -76,16 +76,16 @@ m.sys.asset.img <-create.dir.if.missing(file.path(m.project.path,"sys","asset","
 m.sys.asset.doc <-create.dir.if.missing(file.path(m.project.path, "sys", "asset", "doc"))
 m.sys.template <-create.dir.if.missing(file.path(m.project.path, "sys", "templ"))
 m.report.location <-file.path(m.cache.doc)
-m.external.data.loc <- "E:/SCHOOL/Dissertation/DHS Dataset/Data"
-m.external.data.loc.hse <- "E:/SCHOOL/Dissertation/DHS Dataset/Household"
-m.household.gini.data.loc <- "E:/SCHOOL/Dissertation/DHS Dataset/R_Codes/data"
-m.stata.code.loc <- "E:/SCHOOL/Dissertation/DHS Dataset/Stata Codes/"
-m.mlwin.data.loc <- "E:/SCHOOL/Dissertation/DHS Dataset/MLwiN - Weighted/dataset.dta"
+m.external.data.loc <- paste0(home.dir,"/Data")
+m.external.data.loc.hse <- paste0(home.dir,"/Household")
+m.household.gini.data.loc <- paste0(home.dir,"/R_Codes/data")
+m.stata.code.loc <- paste0(home.dir,"/Stata Codes/")
+m.mlwin.data.loc <- paste0(home.dir,"/MLwiN - Weighted/dataset.dta")
 
-media <- read.table(file = "E:/SCHOOL/Dissertation/DHS Dataset/MPLUS - Weighted/mlwin_fscore.txt")
-lca <- read.table(file = "E:/SCHOOL/Dissertation/DHS Dataset/MPLUS - Weighted/mlwin_cprob.txt")
-keys <- read.table(file="E:/SCHOOL/Dissertation/DHS Dataset/MPLUS - Weighted/key.txt")
-keys.lca <- read.table(file="E:/SCHOOL/Dissertation/DHS Dataset/MPLUS - Weighted/keys_lca.txt")
+media <- read.table(file = paste0(home.dir,"/MPLUS - Weighted/mlwin_fscore.txt"))
+lca <- read.table(file = paste0(home.dir,"/MPLUS - Weighted/mlwin_cprob.txt"))
+keys <- read.table(file=paste0(home.dir,"/MPLUS - Weighted/key.txt"))
+keys.lca <- read.table(file=paste0(home.dir,"/MPLUS - Weighted/keys_lca.txt"))
 
 dhs.analysis.cols <- c("V000","V001","V002","V003","V005","V012","V013","V024","V025","V106",
                        "V714","V717","V120","V121","V130","V131","V136","V137","V157","V158",
