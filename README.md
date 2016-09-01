@@ -1,5 +1,9 @@
 # MSc.Dissertation
 
+## Social inequalities in health research - Combined DHS datasets
+
+![neonatal logo](https://github.com/ttuti/MSc.Dissertation/tree/master/01_Data%20Munging/sys/asset/img/neonatal_logo.png)
+
 #### Introduction
 
 >This project is a syndicated R application built to generate analysis ready datasets for the child survey data of Demographic and Health Survey (DHS).
